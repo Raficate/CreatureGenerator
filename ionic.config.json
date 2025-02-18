@@ -1,0 +1,7 @@
+{
+  "name": "creaturecreator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
