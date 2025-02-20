@@ -1,0 +1,93 @@
+ion-button {
+  display: block;     
+  margin: 0 auto;      
+  width: 80%;
+  height: 80px;         
+  max-width: 300px;      
+  background: #001f3f;
+  color: blanchedalmond;
+  --background: #800000;
+  font-weight: bold;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  object-fit: contain;
+}
+
+ion-content {
+  --background: #001f3f !important;
+  height: 100vh;
+  padding: 0;
+}
+
+ion-grid {
+  height: 100%;
+  width: 100%;
+}
+
+.row-first {
+  height: 40vh;
+}
+
+.row-second {
+  height: 10vh;
+}
+
+.row-third {
+  height: 50vh;
+}
+
+ion-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-left, .col-right {
+  flex: 0 0 8%;
+  max-width: 8%;
+}
+.col-middle {
+  flex: 0 0 84%;
+  max-width: 84%;
+}
+
+@media (min-width: 768px) {
+  .col-left, .col-right {
+    flex: 0 0 15%;
+    max-width: 15%;
+  }
+  .col-middle {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-left, .col-right {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .col-middle {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+}
+
+ion-col {
+  overflow: hidden;
+}
+
+ion-card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+ion-card-header {
+  background-color: #eceaea; /* Gris */
+}

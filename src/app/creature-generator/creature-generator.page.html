@@ -1,0 +1,53 @@
+<ion-content class="content-bg" fullscreen>
+  <ion-grid>
+    <ion-row class="row-first">
+      <ion-col class="col-left"></ion-col>
+      <ion-col class="col-middle">
+        <ion-img src="assets/images/logocc.png" alt="Creature Generator" class="logo"></ion-img>
+
+      </ion-col>
+      <ion-col class="col-right"></ion-col>
+    </ion-row>
+    <ion-row class="row-second">
+      <ion-col class="col-left"></ion-col>
+      <ion-col class="col-middle">
+        <ion-button class="generate-button" expand="block" (click)="generateCreature()">
+          Generar Criatura
+        </ion-button>
+      </ion-col>
+      <ion-col class="col-right"></ion-col>
+    </ion-row>
+
+    <ion-row class="row-third">
+      <ion-col class="col-left"></ion-col>
+      <ion-col class="col-middle">
+        <ion-card *ngIf="creature"  class="creature-details">
+          <ion-card-header>
+            <ion-card-title>{{ creature.name }}</ion-card-title>
+          </ion-card-header>
+            <ion-item>
+              <ion-label><strong>Tipo:</strong> {{ creature.type }}</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label><strong> ⚔️ Ataque:</strong> {{ creature.attack }}</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label><strong> 🛡️ Defensa:</strong> {{ creature.defense }}</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label><strong> ☄️ Velocidad:</strong> {{ creature.speed }}</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label><strong> ❤️ Vitalidad:</strong> {{ creature.vitality }}</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label><strong> 🆚 Nivel:</strong> {{ creature.level }}</ion-label>
+            </ion-item>
+        </ion-card>
+      </ion-col>
+      <ion-col class="col-right"></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+
