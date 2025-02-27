@@ -1,281 +1,1431 @@
 {
-    "creatureNames": [
-      { "name": "Draco", "type": "Dracónico", "masculino": 1 },
-      { "name": "Dragón", "type": "Dracónico", "masculino": 1 },
-      { "name": "Duende", "type": "Duendesco", "masculino": 1 },
-      { "name": "Trol", "type": "Trolesco", "masculino": 1 },
-      { "name": "Fénix", "type": "Alado", "masculino": 1 },
-      { "name": "Gólem", "type": "Terrenal", "masculino": 1 },
-      { "name": "Grifo", "type": "Bestial", "masculino": 1 },
-      { "name": "Espectro", "type": "Etéreo", "masculino": 1 },
-      { "name": "Hidra", "type": "Serpentino", "masculino": 1 },
-      { "name": "Basilisco", "type": "Petrificante", "masculino": 1 },
-      { "name": "Minotauro", "type": "Laberíntico", "masculino": 1 },
-      { "name": "Sirena", "type": "Acuático", "masculino": 0 },
-      { "name": "Quimera", "type": "Híbrido", "masculino": 1 },
-      { "name": "Centauro", "type": "Equino", "masculino": 1 },
-      { "name": "Cíclope", "type": "Gigante", "masculino": 1 },
-      { "name": "Vampiro", "type": "Nocturno", "masculino": 1 },
-      { "name": "Hombre Lobo", "type": "Lunar", "masculino": 1 },
-      { "name": "Zombi", "type": "No Muerto", "masculino": 1 },
-      { "name": "Esqueleto", "type": "Óseo", "masculino": 1 },
-      { "name": "Fantasma", "type": "Etéreo", "masculino": 1 },
-      { "name": "Banshee", "type": "Lamentoso", "masculino": 0 },
-      { "name": "Demonio", "type": "Infernal", "masculino": 1 },
-      { "name": "Ángel Caído", "type": "Celestial", "masculino": 1 },
-      { "name": "Elemento", "type": "Primigenio", "masculino": 1 },
-      { "name": "Hongo", "type": "Esporádico", "masculino": 1 },
-      { "name": "Baba", "type": "Gelatinoso", "masculino": 1 },
-      { "name": "Mímico", "type": "Cambiante", "masculino": 1 },
-      { "name": "Arpía", "type": "Alada", "masculino": 0 },
-      { "name": "Liche", "type": "Antiguo", "masculino": 1 },
-      { "name": "Gorgona", "type": "Petrificante", "masculino": 0 },
-      { "name": "Súcubo", "type": "Seductor", "masculino": 0 },
-      { "name": "Íncubo", "type": "Tentador", "masculino": 1 },
-      { "name": "Genio", "type": "Mágico", "masculino": 1 },
-      { "name": "Esfinge", "type": "Enigmática", "masculino": 0 },
-      { "name": "Lamassu", "type": "Guardián", "masculino": 1 },
-      { "name": "Rakshasa", "type": "Maldicto", "masculino": 1 },
-      { "name": "Naga", "type": "Serpentino", "masculino": 0 },
-      { "name": "Ogro", "type": "Brutal", "masculino": 1 },
-      { "name": "Fauno", "type": "Silvestre", "masculino": 1 },
-      { "name": "Sátiro", "type": "Festivo", "masculino": 1 },
-      { "name": "Dríada", "type": "Forestal", "masculino": 0 },
-      { "name": "Ninfa", "type": "Encantada", "masculino": 0 },
-      { "name": "Trasgo", "type": "Pícaro", "masculino": 1 },
-      { "name": "Brownie", "type": "Servicial", "masculino": 0 },
-      { "name": "Kelpie", "type": "Acuático", "masculino": 1 },
-      { "name": "Cocatriz", "type": "Petrificante", "masculino": 1 },
-      { "name": "Mantícora", "type": "Venenosa", "masculino": 1 },
-      { "name": "Sasquatch", "type": "Salvaje", "masculino": 1 },
-      { "name": "Yeti", "type": "Helado", "masculino": 1 },
-      { "name": "Wendigo", "type": "Maldito", "masculino": 1 },
-      { "name": "Bugbear", "type": "Salvaje", "masculino": 1 },
-      { "name": "Hobgoblin", "type": "Pícaro", "masculino": 1 },
-      { "name": "Kobold", "type": "Astuto", "masculino": 1 },
-      { "name": "Hombre Lagarto", "type": "Reptil", "masculino": 1 },
-      { "name": "Merrow", "type": "Acuático", "masculino": 1 },
-      { "name": "Undine", "type": "Acuático", "masculino": 0 },
-      { "name": "Gigante", "type": "Colosal", "masculino": 1 },
-      { "name": "Oni", "type": "Demoníaco", "masculino": 1 },
-      { "name": "Tanuki", "type": "Tramposo", "masculino": 1 },
-      { "name": "Kitsune", "type": "Astuto", "masculino": 0 },
-      { "name": "Baku", "type": "Devorasueños", "masculino": 1 },
-      { "name": "Jotun", "type": "Helado", "masculino": 1 },
-      { "name": "Fomoriano", "type": "Grotesco", "masculino": 1 },
-      { "name": "Selkie", "type": "Marino", "masculino": 0 },
-      { "name": "Valquiria", "type": "Guerrera", "masculino": 0 },
-      { "name": "Revenant", "type": "Vengativo", "masculino": 1 },
-      { "name": "Sombra", "type": "Sombría", "masculino": 1 },
-      { "name": "Poltergeist", "type": "Trastabillado", "masculino": 1 },
-      { "name": "Araña Gigante", "type": "Arácnida", "masculino": 0 },
-      { "name": "Escorpión", "type": "Aguijonante", "masculino": 1 },
-      { "name": "Mantis", "type": "Insectil", "masculino":  1 },
-      { "name": "Ciempiés", "type": "Multipedal", "masculino": 1 },
-      { "name": "Cucaracha", "type": "Resistente", "masculino": 0 },
-      { "name": "Elemento de Fuego", "type": "Flameante", "masculino": 1 },
-      { "name": "Elemento de Agua", "type": "Fluyente", "masculino": 1 },
-      { "name": "Elemento de Tierra", "type": "Pedregoso", "masculino": 1 },
-      { "name": "Elemento de Aire", "type": "Ventoso", "masculino": 1 },
-      { "name": "Caballero Espectral", "type": "No Muerto", "masculino": 1 },
-      { "name": "Momia", "type": "Maldita", "masculino": 0 },
-      { "name": "Gusano de Arena", "type": "Inmenso", "masculino": 1 },
-      { "name": "Trol de Cueva", "type": "Rocoso", "masculino": 1 },
-      { "name": "Gólem de Roca", "type": "Terrenal", "masculino": 1 },
-      { "name": "Duende de Cristal", "type": "Luminoso", "masculino": 1 },
-      { "name": "Pájaro de Trueno", "type": "Tempestuoso", "masculino": 1 },
-      { "name": "Demonio del Volcán", "type": "Ígneo", "masculino": 1 },
-      { "name": "Bestia de Coral", "type": "Marino", "masculino": 0 },
-      { "name": "Gigante de Hielo", "type": "Helado", "masculino": 1 },
-      { "name": "Gigante de Tormenta", "type": "Tempestuoso", "masculino": 1 },
-      { "name": "Serafín Celestial", "type": "Divino", "masculino": 1 },
-      { "name": "Segador del Crepúsculo", "type": "Sombrío", "masculino": 1 },
-      { "name": "Portador de Luz", "type": "Radiante", "masculino": 1 },
-      { "name": "Caminante del Vacío", "type": "Etéreo", "masculino": 1 },
-      { "name": "Cronovisor", "type": "Temporal", "masculino": 1 },
-      { "name": "Caos Viviente", "type": "Caótico", "masculino": 1 },
-      { "name": "Horror Abismal", "type": "Pesadillesco", "masculino": 1 },
-      { "name": "Anciano", "type": "Antiguo", "masculino": 1 },
-      { "name": "Guardián Espectral", "type": "Vigilante", "masculino": 1 },
-      { "name": "Furia Nocturna", "type": "Nocturno", "masculino": 0 },
-      { "name": "Titán", "type": "Titanesco", "masculino": 1 },
-      { "name": "Gnomo", "type": "Humanoide", "masculino": 1 },
-      { "name": "Ladrón", "type": "Humano", "masculino": 1 },
-      { "name": "Bruja", "type": "Humano", "masculino": 0 },
-      { "name": "Hechizero", "type": "Humano", "masculino": 1 },
-      { "name": "Tritón", "type": "Humanoide", "masculino": 1 },
-      { "name": "Arpía", "type": "Monstrousidad", "masculino": 0 },
-      { "name": "Gul", "type": "No Muerto", "masculino": 1 },
-      { "name": "Orco", "type": "Humanoide", "masculino": 1 },
-      { "name": "Doppelganger", "type": "Cambiaformas", "masculino": 1 },
-      { "name": "Caballero", "type": "Humanoide", "masculino": 1 },
-      { "name": "Diablo", "type": "Demoníaco", "masculino": 1 },
-      { "name": "Calavera", "type": "No muerto", "masculino": 0 },
-      { "name": "Tocón viviente", "type": "No muerto", "masculino": 1 },
-      { "name": "Elfo", "type": "Ancestral", "masculino": 1 },
-      { "name": "Fomoré", "type": "Humanoide", "masculino": 1 },
-      { "name": "Lamia", "type": "Sierpe", "masculino": 0 },
-      { "name": "Guardián", "type": "Humanoide", "masculino": 1 },
-      { "name": "Autómata", "type": "Artificial", "masculino": 1 },
-      { "name": "Troll", "type": "Gigante", "masculino": 1 }
-    ],
-    "creatureAdjectives": [
-      { "adjectiveMasc": "Antiguo", "adjectiveFem": "Antigua", "type": "Ancestral" },
-      { "adjectiveMasc": "Feroz", "adjectiveFem": "Feroz", "type": "Violento" },
-      { "adjectiveMasc": "Místico", "adjectiveFem": "Mística", "type": "Mágico" },
-      { "adjectiveMasc": "Sombrío", "adjectiveFem": "Sombría", "type": "Oscuro" },
-      { "adjectiveMasc": "Salvaje", "adjectiveFem": "Salvaje", "type": "Brutal" },
-      { "adjectiveMasc": "Divino", "adjectiveFem": "Divina", "type": "Celestial" },
-      { "adjectiveMasc": "Maldicto", "adjectiveFem": "Maldicta", "type": "Maléfico" },
-      { "adjectiveMasc": "Glorioso", "adjectiveFem": "Gloriosa", "type": "Magnífico" },
-      { "adjectiveMasc": "Vicioso", "adjectiveFem": "Viciosa", "type": "Perverso" },
-      { "adjectiveMasc": "Amenazante", "adjectiveFem": "Amenazante", "type": "Intimidante" },
-      { "adjectiveMasc": "Sanguinario", "adjectiveFem": "Sanguinaria", "type": "Violento" },
-      { "adjectiveMasc": "Embrujado", "adjectiveFem": "Embrujada", "type": "Hechizado" },
-      { "adjectiveMasc": "Etéreo", "adjectiveFem": "Etérea", "type": "Inmaterial" },
-      { "adjectiveMasc": "Brutal", "adjectiveFem": "Brutal", "type": "Violento" },
-      { "adjectiveMasc": "Inefable", "adjectiveFem": "Inefable", "type": "Inexplicable" },
-      { "adjectiveMasc": "Aterrador", "adjectiveFem": "Aterradora", "type": "Espeluznante" },
-      { "adjectiveMasc": "Majestuoso", "adjectiveFem": "Majestuosa", "type": "Imponente" },
-      { "adjectiveMasc": "Imponente", "adjectiveFem": "Imponente", "type": "Majestuoso" },
-      { "adjectiveMasc": "Tenebroso", "adjectiveFem": "Tenebrosa", "type": "Oscuro" },
-      { "adjectiveMasc": "Espectral", "adjectiveFem": "Espectral", "type": "Fantasmagórico" },
-      { "adjectiveMasc": "Siniestro", "adjectiveFem": "Siniestra", "type": "Maléfico" },
-      { "adjectiveMasc": "Inmortal", "adjectiveFem": "Inmortal", "type": "Eterno" },
-      { "adjectiveMasc": "Arcano", "adjectiveFem": "Arcana", "type": "Místico" },
-      { "adjectiveMasc": "Atroz", "adjectiveFem": "Atroz", "type": "Despiadado" },
-      { "adjectiveMasc": "Rugiente", "adjectiveFem": "Rugiente", "type": "Furioso" },
-      { "adjectiveMasc": "Enigmático", "adjectiveFem": "Enigmática", "type": "Misterioso" },
-      { "adjectiveMasc": "Obscuro", "adjectiveFem": "Obscura", "type": "Oculto" },
-      { "adjectiveMasc": "Reluciente", "adjectiveFem": "Reluciente", "type": "Brillante" },
-      { "adjectiveMasc": "Resplandeciente", "adjectiveFem": "Resplandeciente", "type": "Radiante" },
-      { "adjectiveMasc": "Incandescente", "adjectiveFem": "Incandescente", "type": "Llameante" },
-      { "adjectiveMasc": "Helado", "adjectiveFem": "Helada", "type": "Glacial" },
-      { "adjectiveMasc": "Tempestuoso", "adjectiveFem": "Tempestuosa", "type": "Torrencial" },
-      { "adjectiveMasc": "Venerable", "adjectiveFem": "Venerable", "type": "Sagrado" },
-      { "adjectiveMasc": "Nefasto", "adjectiveFem": "Nefasta", "type": "Funesto" },
-      { "adjectiveMasc": "Abismal", "adjectiveFem": "Abismal", "type": "Profundo" },
-      { "adjectiveMasc": "Insondable", "adjectiveFem": "Insondable", "type": "Impenetrable" },
-      { "adjectiveMasc": "Fúnebre", "adjectiveFem": "Fúnebre", "type": "Lúgubre" },
-      { "adjectiveMasc": "Lúgubre", "adjectiveFem": "Lúgubre", "type": "Triste" },
-      { "adjectiveMasc": "Melancólico", "adjectiveFem": "Melancólica", "type": "Apesadumbrado" },
-      { "adjectiveMasc": "Desgarrador", "adjectiveFem": "Desgarradora", "type": "Atronador" },
-      { "adjectiveMasc": "Atormentado", "adjectiveFem": "Atormentada", "type": "Sufriente" },
-      { "adjectiveMasc": "Inexorable", "adjectiveFem": "Inexorable", "type": "Implacable" },
-      { "adjectiveMasc": "Impetuoso", "adjectiveFem": "Impetuosa", "type": "Arrollador" },
-      { "adjectiveMasc": "Ardoroso", "adjectiveFem": "Ardorosa", "type": "Fogoso" },
-      { "adjectiveMasc": "Voraz", "adjectiveFem": "Voraz", "type": "Insaciable" },
-      { "adjectiveMasc": "Despiadado", "adjectiveFem": "Despiadada", "type": "Implacable" },
-      { "adjectiveMasc": "Fulgurante", "adjectiveFem": "Fulgurante", "type": "Relámpago" },
-      { "adjectiveMasc": "Cegador", "adjectiveFem": "Cegadora", "type": "Resplandeciente" },
-      { "adjectiveMasc": "Mortal", "adjectiveFem": "Mortal", "type": "Letal" },
-      { "adjectiveMasc": "Poderoso", "adjectiveFem": "Poderosa", "type": "Potente" },
-      { "adjectiveMasc": "Invencible", "adjectiveFem": "Invencible", "type": "Inquebrantable" },
-      { "adjectiveMasc": "Inmenso", "adjectiveFem": "Inmensa", "type": "Colosal" },
-      { "adjectiveMasc": "Gigantesco", "adjectiveFem": "Gigantesca", "type": "Enorme" },
-      { "adjectiveMasc": "Monumental", "adjectiveFem": "Monumental", "type": "Impresionante" },
-      { "adjectiveMasc": "Soberbio", "adjectiveFem": "Soberbia", "type": "Altivo" },
-      { "adjectiveMasc": "Imperial", "adjectiveFem": "Imperial", "type": "Majestuoso" },
-      { "adjectiveMasc": "Real", "adjectiveFem": "Real", "type": "Regio" },
-      { "adjectiveMasc": "Digno", "adjectiveFem": "Digna", "type": "Noble" },
-      { "adjectiveMasc": "Heroico", "adjectiveFem": "Heroica", "type": "Valeroso" },
-      { "adjectiveMasc": "Gallardo", "adjectiveFem": "Gallarda", "type": "Bravo" },
-      { "adjectiveMasc": "Intrépido", "adjectiveFem": "Intrépida", "type": "Valiente" },
-      { "adjectiveMasc": "Resoluto", "adjectiveFem": "Resoluta", "type": "Decidido" },
-      { "adjectiveMasc": "Audaz", "adjectiveFem": "Audaz", "type": "Osado" },
-      { "adjectiveMasc": "Brillante", "adjectiveFem": "Brillante", "type": "Luminoso" },
-      { "adjectiveMasc": "Cautivador", "adjectiveFem": "Cautivadora", "type": "Encantador" },
-      { "adjectiveMasc": "Esotérico", "adjectiveFem": "Esotérica", "type": "Misterioso" },
-      { "adjectiveMasc": "Sanguinario", "adjectiveFem": "Sanguinaria", "type": "Cruento" },
-      { "adjectiveMasc": "Macabro", "adjectiveFem": "Macabra", "type": "Espeluznante" },
-      { "adjectiveMasc": "Desolado", "adjectiveFem": "Desolada", "type": "Abandonado" },
-      { "adjectiveMasc": "Vacío", "adjectiveFem": "Vacía", "type": "Nulo" },
-      { "adjectiveMasc": "Caótico", "adjectiveFem": "Caótica", "type": "Incontrolable" },
-      { "adjectiveMasc": "Inquietante", "adjectiveFem": "Inquietante", "type": "Perturbador" },
-      { "adjectiveMasc": "Veloz", "adjectiveFem": "Veloz", "type": "Ágil" },
-      { "adjectiveMasc": "Lesto", "adjectiveFem": "Lesta", "type": "Rápido" },
-      { "adjectiveMasc": "Presto", "adjectiveFem": "Presta", "type": "Ágil" },
-      { "adjectiveMasc": "Sutil", "adjectiveFem": "Sutil", "type": "Delicado" },
-      { "adjectiveMasc": "Fino", "adjectiveFem": "Fina", "type": "Elegante" },
-      { "adjectiveMasc": "Nítido", "adjectiveFem": "Nítida", "type": "Claro" },
-      { "adjectiveMasc": "Perspicaz", "adjectiveFem": "Perspicaz", "type": "Agudo" },
-      { "adjectiveMasc": "Sagaz", "adjectiveFem": "Sagaz", "type": "Astuto" },
-      { "adjectiveMasc": "Ingenioso", "adjectiveFem": "Ingeniosa", "type": "Creativo" },
-      { "adjectiveMasc": "Intrincado", "adjectiveFem": "Intrincada", "type": "Complicado" },
-      { "adjectiveMasc": "Sólido", "adjectiveFem": "Sólida", "type": "Firme" },
-      { "adjectiveMasc": "Robusto", "adjectiveFem": "Robusta", "type": "Resistente" },
-      { "adjectiveMasc": "Vigoroso", "adjectiveFem": "Vigorosa", "type": "Fuerte" },
-      { "adjectiveMasc": "Musculoso", "adjectiveFem": "Musculosa", "type": "Fornido" },
-      { "adjectiveMasc": "Endurecido", "adjectiveFem": "Endurecida", "type": "Rígido" },
-      { "adjectiveMasc": "Refinado", "adjectiveFem": "Refinada", "type": "Pulido" },
-      { "adjectiveMasc": "Aterciopelado", "adjectiveFem": "Aterciopelada", "type": "Suave" },
-      { "adjectiveMasc": "Morboso", "adjectiveFem": "Morbosa", "type": "Siniestro" },
-      { "adjectiveMasc": "Oscuro", "adjectiveFem": "Oscura", "type": "Sombrío" },
-      { "adjectiveMasc": "Fugaz", "adjectiveFem": "Fugaz", "type": "Efímero" },
-      { "adjectiveMasc": "Transitorio", "adjectiveFem": "Transitoria", "type": "Pasajero" },
-      { "adjectiveMasc": "Eterno", "adjectiveFem": "Eterna", "type": "Infinito" },
-      { "adjectiveMasc": "Inmutable", "adjectiveFem": "Inmutable", "type": "Fijo" },
-      { "adjectiveMasc": "Voluble", "adjectiveFem": "Voluble", "type": "Cambiante" },
-      { "adjectiveMasc": "Errático", "adjectiveFem": "Errática", "type": "Inconstante" },
-      { "adjectiveMasc": "Caprichoso", "adjectiveFem": "Caprichosa", "type": "Inesperado" },
-      { "adjectiveMasc": "Impredecible", "adjectiveFem": "Impredecible", "type": "Incierto" },
-      { "adjectiveMasc": "Cauteloso", "adjectiveFem": "Cautelosa", "type": "Precavido" },
-      { "adjectiveMasc": "Previsor", "adjectiveFem": "Previsora", "type": "Anticipado" },
-      { "adjectiveMasc": "Perspicuo", "adjectiveFem": "Perspicua", "type": "Claro" },
-      { "adjectiveMasc": "Claro", "adjectiveFem": "Clara", "type": "Transparente" },
-      { "adjectiveMasc": "Opaco", "adjectiveFem": "Opaca", "type": "Sombrío" },
-      { "adjectiveMasc": "Relajante", "adjectiveFem": "Relajante", "type": "Tranquilo" },
-      { "adjectiveMasc": "Pacífico", "adjectiveFem": "Pacífica", "type": "Sereno" },
-      { "adjectiveMasc": "Sereno", "adjectiveFem": "Serena", "type": "Calmado" },
-      { "adjectiveMasc": "Tranquilo", "adjectiveFem": "Tranquila", "type": "Apacible" },
-      { "adjectiveMasc": "Agitado", "adjectiveFem": "Agitada", "type": "Inquieto" },
-      { "adjectiveMasc": "Ardiente", "adjectiveFem": "Ardiente", "type": "Ferviente" },
-      { "adjectiveMasc": "Cálido", "adjectiveFem": "Cálida", "type": "Abrasador" },
-      { "adjectiveMasc": "Gélido", "adjectiveFem": "Gélida", "type": "Frígido" },
-      { "adjectiveMasc": "Temible", "adjectiveFem": "Temible", "type": "Atemorizante" },
-      { "adjectiveMasc": "Pavoroso", "adjectiveFem": "Pavorosa", "type": "Espeluznante" },
-      { "adjectiveMasc": "Horripilante", "adjectiveFem": "Horripilante", "type": "Atroz" },
-      { "adjectiveMasc": "Funesto", "adjectiveFem": "Funesta", "type": "Sinistro" },
-      { "adjectiveMasc": "Exánime", "adjectiveFem": "Exánime", "type": "Cadavérico" },
-      { "adjectiveMasc": "Radiante", "adjectiveFem": "Radiante", "type": "Luminoso" },
-      { "adjectiveMasc": "Floreciente", "adjectiveFem": "Floreciente", "type": "Próspero" },
-      { "adjectiveMasc": "Creciente", "adjectiveFem": "Creciente", "type": "Ascendente" },
-      { "adjectiveMasc": "Expansivo", "adjectiveFem": "Expansiva", "type": "Inmenso" },
-      { "adjectiveMasc": "Austero", "adjectiveFem": "Austera", "type": "Sobrio" },
-      { "adjectiveMasc": "Sencillo", "adjectiveFem": "Sencilla", "type": "Modesto" },
-      { "adjectiveMasc": "Ordinario", "adjectiveFem": "Ordinaria", "type": "Común" },
-      { "adjectiveMasc": "Extraordinario", "adjectiveFem": "Extraordinaria", "type": "Excepcional" },
-      { "adjectiveMasc": "Insólito", "adjectiveFem": "Insólita", "type": "Raro" },
-      { "adjectiveMasc": "Curioso", "adjectiveFem": "Curiosa", "type": "Inusual" },
-      { "adjectiveMasc": "Insospechado", "adjectiveFem": "Insospechada", "type": "Sorprendente" },
-      { "adjectiveMasc": "Prodigioso", "adjectiveFem": "Prodigiosa", "type": "Maravilloso" },
-      { "adjectiveMasc": "Estupendo", "adjectiveFem": "Estupenda", "type": "Fabuloso" },
-      { "adjectiveMasc": "Fascinante", "adjectiveFem": "Fascinante", "type": "Cautivador" },
-      { "adjectiveMasc": "Encantador", "adjectiveFem": "Encantadora", "type": "Hechizante" },
-      { "adjectiveMasc": "Atractivo", "adjectiveFem": "Atractiva", "type": "Seductor" },
-      { "adjectiveMasc": "Apacible", "adjectiveFem": "Apacible", "type": "Tranquilo" },
-      { "adjectiveMasc": "Plácido", "adjectiveFem": "Plácida", "type": "Sosegado" },
-      { "adjectiveMasc": "Melodioso", "adjectiveFem": "Melodiosa", "type": "Armonioso" },
-      { "adjectiveMasc": "Cadencioso", "adjectiveFem": "Cadenciosa", "type": "Rítmico" },
-      { "adjectiveMasc": "Vibrátil", "adjectiveFem": "Vibrátil", "type": "Ondulante" },
-      { "adjectiveMasc": "Ondulante", "adjectiveFem": "Ondulante", "type": "Fluyente" },
-      { "adjectiveMasc": "Errante", "adjectiveFem": "Errante", "type": "Vagabundo" },
-      { "adjectiveMasc": "Nómada", "adjectiveFem": "Nómada", "type": "Errante" },
-      { "adjectiveMasc": "Itinerante", "adjectiveFem": "Itinerante", "type": "Viajero" },
-      { "adjectiveMasc": "Disperso", "adjectiveFem": "Dispersa", "type": "Fragmentado" },
-      { "adjectiveMasc": "Cíclico", "adjectiveFem": "Cíclica", "type": "Recurrente" },
-      { "adjectiveMasc": "Perpetuo", "adjectiveFem": "Perpetua", "type": "Infinito" },
-      { "adjectiveMasc": "Eterno", "adjectiveFem": "Eterna", "type": "Perdurable" },
-      { "adjectiveMasc": "Incesante", "adjectiveFem": "Incesante", "type": "Constante" },
-      { "adjectiveMasc": "Rígido", "adjectiveFem": "Rígida", "type": "Inflexible" },
-      { "adjectiveMasc": "Maleable", "adjectiveFem": "Maleable", "type": "Flexible" },
-      { "adjectiveMasc": "Elástico", "adjectiveFem": "Elástica", "type": "Flexible" },
-      { "adjectiveMasc": "Dúctil", "adjectiveFem": "Dúctil", "type": "Maleable" },
-      { "adjectiveMasc": "Quebradizo", "adjectiveFem": "Quebradiza", "type": "Vulnerable" },
-      { "adjectiveMasc": "Resbaladizo", "adjectiveFem": "Resbaladiza", "type": "Escurridizo" },
-      { "adjectiveMasc": "Dentado", "adjectiveFem": "Dentada", "type": "Zarpado" },
-      { "adjectiveMasc": "Granuloso", "adjectiveFem": "Granulosa", "type": "Rugoso" },
-      { "adjectiveMasc": "Texturizado", "adjectiveFem": "Texturizada", "type": "Estriado" }
+  "creatureNames": [
+    {"name": "Draco", "type": "Dracónico", "masculino": 1, "element": "None"},
+    {"name": "Dragón", "type": "Dracónico", "masculino": 1, "element": "None"},
+    {"name": "Duende", "type": "Duendesco", "masculino": 1, "element": "None"},
+    {"name": "Trol", "type": "Trolesco", "masculino": 1, "element": "None"},
+    {"name": "Fénix", "type": "Alado", "masculino": 1, "element": "None"},
+    {"name": "Gólem", "type": "Terrenal", "masculino": 1, "element": "None"},
+    {"name": "Grifo", "type": "Bestial", "masculino": 1, "element": "None"},
+    {"name": "Espectro", "type": "Etéreo", "masculino": 1, "element": "None"},
+    {"name": "Hidra", "type": "Serpentino", "masculino": 1, "element": "None"},
+    {"name": "Basilisco", "type": "Petrificante", "masculino": 1, "element": "None"},
+    {"name": "Minotauro", "type": "Laberíntico", "masculino": 1, "element": "None"},
+    {"name": "Sirena", "type": "Acuático", "masculino": 0, "element": "None"},
+    {"name": "Quimera", "type": "Híbrido", "masculino": 1, "element": "None"},
+    {"name": "Centauro", "type": "Equino", "masculino": 1, "element": "None"},
+    {"name": "Cíclope", "type": "Gigante", "masculino": 1, "element": "None"},
+    {"name": "Vampiro", "type": "Nocturno", "masculino": 1, "element": "None"},
+    {"name": "Hombre Lobo", "type": "Lunar", "masculino": 1, "element": "None"},
+    {"name": "Zombi", "type": "No Muerto", "masculino": 1, "element": "None"},
+    {"name": "Esqueleto", "type": "Óseo", "masculino": 1, "element": "None"},
+    {"name": "Fantasma", "type": "Etéreo", "masculino": 1, "element": "None"},
+    {"name": "Banshee", "type": "Lamentoso", "masculino": 0, "element": "None"},
+    {"name": "Demonio", "type": "Infernal", "masculino": 1, "element": "None"},
+    {"name": "Ángel Caído", "type": "Celestial", "masculino": 1, "element": "None"},
+    {"name": "Elemento", "type": "Primigenio", "masculino": 1, "element": "None"},
+    {"name": "Hongo", "type": "Esporádico", "masculino": 1, "element": "None"},
+    {"name": "Baba", "type": "Gelatinoso", "masculino": 0, "element": "None"},
+    {"name": "Mímico", "type": "Cambiante", "masculino": 1, "element": "None"},
+    {"name": "Arpía", "type": "Alada", "masculino": 0, "element": "None"},
+    {"name": "Liche", "type": "Antiguo", "masculino": 1, "element": "None"},
+    {"name": "Gorgona", "type": "Petrificante", "masculino": 0, "element": "None"},
+    {"name": "Súcubo", "type": "Seductor", "masculino": 0, "element": "None"},
+    {"name": "Íncubo", "type": "Tentador", "masculino": 1, "element": "None"},
+    {"name": "Genio", "type": "Mágico", "masculino": 1, "element": "None"},
+    {"name": "Esfinge", "type": "Enigmática", "masculino": 0, "element": "None"},
+    {"name": "Lamassu", "type": "Guardián", "masculino": 1, "element": "None"},
+    {"name": "Rakshasa", "type": "Maldicto", "masculino": 1, "element": "None"},
+    {"name": "Naga", "type": "Serpentino", "masculino": 0, "element": "None"},
+    {"name": "Ogro", "type": "Brutal", "masculino": 1, "element": "None"},
+    {"name": "Fauno", "type": "Silvestre", "masculino": 1, "element": "None"},
+    {"name": "Sátiro", "type": "Festivo", "masculino": 1, "element": "None"},
+    {"name": "Dríada", "type": "Forestal", "masculino": 0, "element": "None"},
+    {"name": "Ninfa", "type": "Encantada", "masculino": 0, "element": "None"},
+    {"name": "Trasgo", "type": "Pícaro", "masculino": 1, "element": "None"},
+    {"name": "Brownie", "type": "Servicial", "masculino": 0, "element": "None"},
+    {"name": "Kelpie", "type": "Acuático", "masculino": 1, "element": "None"},
+    {"name": "Cocatriz", "type": "Petrificante", "masculino": 0, "element": "None"},
+    {"name": "Mantícora", "type": "Venenosa", "masculino": 0, "element": "None"},
+    {"name": "Sasquatch", "type": "Salvaje", "masculino": 1, "element": "None"},
+    {"name": "Yeti", "type": "Helado", "masculino": 1, "element": "None"},
+    {"name": "Wendigo", "type": "Maldito", "masculino": 1, "element": "None"},
+    {"name": "Bugbear", "type": "Salvaje", "masculino": 1, "element": "None"},
+    {"name": "Hobgoblin", "type": "Pícaro", "masculino": 1, "element": "None"},
+    {"name": "Kobold", "type": "Astuto", "masculino": 1, "element": "None"},
+    {"name": "Hombre Lagarto", "type": "Reptil", "masculino": 1, "element": "None"},
+    {"name": "Merrow", "type": "Acuático", "masculino": 1, "element": "None"},
+    {"name": "Undine", "type": "Acuático", "masculino": 0, "element": "None"},
+    {"name": "Gigante", "type": "Colosal", "masculino": 1, "element": "None"},
+    {"name": "Oni", "type": "Demoníaco", "masculino": 1, "element": "None"},
+    {"name": "Tanuki", "type": "Tramposo", "masculino": 1, "element": "None"},
+    {"name": "Kitsune", "type": "Astuto", "masculino": 0, "element": "None"},
+    {"name": "Baku", "type": "Devorasueños", "masculino": 1, "element": "None"},
+    {"name": "Jotun", "type": "Helado", "masculino": 1, "element": "None"},
+    {"name": "Fomoriano", "type": "Grotesco", "masculino": 1, "element": "None"},
+    {"name": "Selkie", "type": "Marino", "masculino": 0, "element": "None"},
+    {"name": "Valquiria", "type": "Guerrera", "masculino": 0, "element": "None"},
+    {"name": "Revenant", "type": "Vengativo", "masculino": 1, "element": "None"},
+    {"name": "Sombra", "type": "Sombría", "masculino": 1, "element": "None"},
+    {"name": "Poltergeist", "type": "Trastabillado", "masculino": 1, "element": "None"},
+    {"name": "Araña Gigante", "type": "Arácnida", "masculino": 0, "element": "None"},
+    {"name": "Escorpión", "type": "Aguijonante", "masculino": 1, "element": "None"},
+    {"name": "Mantis", "type": "Insectil", "masculino": 0, "element": "None"},
+    {"name": "Ciempiés", "type": "Multipedal", "masculino": 1, "element": "None"},
+    {"name": "Cucaracha", "type": "Resistente", "masculino": 0, "element": "None"},
+    {"name": "Elemental de Fuego", "type": "Flameante", "masculino": 1, "element": "None"},
+    {"name": "Elemental de Agua", "type": "Fluyente", "masculino": 1, "element": "None"},
+    {"name": "Elemental de Tierra", "type": "Pedregoso", "masculino": 1, "element": "None"},
+    {"name": "Elemental de Aire", "type": "Ventoso", "masculino": 1, "element": "None"},
+    {"name": "Caballero Espectral", "type": "No Muerto", "masculino": 1, "element": "None"},
+    {"name": "Momia", "type": "Maldita", "masculino": 0, "element": "None"},
+    {"name": "Gusano de Arena", "type": "Inmenso", "masculino": 1, "element": "None"},
+    {"name": "Trol de Cueva", "type": "Rocoso", "masculino": 1, "element": "None"},
+    {"name": "Gólem de Roca", "type": "Terrenal", "masculino": 1, "element": "None"},
+    {"name": "Duende de Cristal", "type": "Luminoso", "masculino": 1, "element": "None"},
+    {"name": "Pájaro de Trueno", "type": "Tempestuoso", "masculino": 1, "element": "None"},
+    {"name": "Demonio del Volcán", "type": "Ígneo", "masculino": 1, "element": "None"},
+    {"name": "Bestia de Coral", "type": "Marino", "masculino": 0, "element": "None"},
+    {"name": "Gigante de Hielo", "type": "Helado", "masculino": 1, "element": "None"},
+    {"name": "Gigante de Tormenta", "type": "Tempestuoso", "masculino": 1, "element": "None"},
+    {"name": "Serafín Celestial", "type": "Divino", "masculino": 1, "element": "None"},
+    {"name": "Segador del Crepúsculo", "type": "Sombrío", "masculino": 1, "element": "None"},
+    {"name": "Portador de Luz", "type": "Radiante", "masculino": 1, "element": "None"},
+    {"name": "Caminante del Vacío", "type": "Etéreo", "masculino": 1, "element": "None"},
+    {"name": "Cronovisor", "type": "Temporal", "masculino": 1, "element": "None"},
+    {"name": "Caos Viviente", "type": "Caótico", "masculino": 1, "element": "None"},
+    {"name": "Horror Abismal", "type": "Pesadillesco", "masculino": 1, "element": "None"},
+    {"name": "Anciano", "type": "Antiguo", "masculino": 1, "element": "None"},
+    {"name": "Guardián Espectral", "type": "Vigilante", "masculino": 1, "element": "None"},
+    {"name": "Furia Nocturna", "type": "Nocturno", "masculino": 0, "element": "None"},
+    {"name": "Titán", "type": "Titanesco", "masculino": 1, "element": "None"},
+    {"name": "Gnomo", "type": "Humanoide", "masculino": 1, "element": "None"},
+    {"name": "Ladrón", "type": "Humano", "masculino": 1, "element": "None"},
+    {"name": "Bruja", "type": "Humano", "masculino": 0, "element": "None"},
+    {"name": "Hechizero", "type": "Humano", "masculino": 1, "element": "None"},
+    {"name": "Tritón", "type": "Humanoide", "masculino": 1, "element": "None"},
+    {"name": "Arpía", "type": "Monstrousidad", "masculino": 0, "element": "None"},
+    {"name": "Gul", "type": "No Muerto", "masculino": 1, "element": "None"},
+    {"name": "Orco", "type": "Humanoide", "masculino": 1, "element": "None"},
+    {"name": "Doppelganger", "type": "Cambiaformas", "masculino": 1, "element": "None"},
+    {"name": "Caballero", "type": "Humanoide", "masculino": 1, "element": "None"},
+    {"name": "Diablo", "type": "Demoníaco", "masculino": 1, "element": "None"},
+    {"name": "Calavera", "type": "No muerto", "masculino": 0, "element": "None"},
+    {"name": "Tocón viviente", "type": "No muerto", "masculino": 1, "element": "None"},
+    {"name": "Elfo", "type": "Ancestral", "masculino": 1, "element": "None"},
+    {"name": "Fomoré", "type": "Humanoide", "masculino": 1, "element": "None"},
+    {"name": "Lamia", "type": "Sierpe", "masculino": 0, "element": "None"},
+    {"name": "Guardián", "type": "Humanoide", "masculino": 1, "element": "None"},
+    {"name": "Autómata", "type": "Artificial", "masculino": 1, "element": "None"},
+    {"name": "Troll", "type": "Gigante", "masculino": 1, "element": "None"}
+  ],
+  "creatureAdjectives": [
+    {"adjectiveMasc": "Antiguo", "adjectiveFem": "Antigua", "type": "Ancestral", "element": "None"},
+    {"adjectiveMasc": "Feroz", "adjectiveFem": "Feroz", "type": "Violento", "element": "None"},
+    {"adjectiveMasc": "Místico", "adjectiveFem": "Mística", "type": "Mágico", "element": "None"},
+    {"adjectiveMasc": "Sombrío", "adjectiveFem": "Sombría", "type": "Oscuro", "element": "None"},
+    {"adjectiveMasc": "Salvaje", "adjectiveFem": "Salvaje", "type": "Brutal", "element": "None"},
+    {"adjectiveMasc": "Divino", "adjectiveFem": "Divina", "type": "Celestial", "element": "None"},
+    {"adjectiveMasc": "Maldicto", "adjectiveFem": "Maldicta", "type": "Maléfico", "element": "None"},
+    {"adjectiveMasc": "Glorioso", "adjectiveFem": "Gloriosa", "type": "Magnífico", "element": "None"},
+    {"adjectiveMasc": "Vicioso", "adjectiveFem": "Viciosa", "type": "Perverso", "element": "None"},
+    {"adjectiveMasc": "Amenazante", "adjectiveFem": "Amenazante", "type": "Intimidante", "element": "None"},
+    {"adjectiveMasc": "Sanguinario", "adjectiveFem": "Sanguinaria", "type": "Violento", "element": "None"},
+    {"adjectiveMasc": "Embrujado", "adjectiveFem": "Embrujada", "type": "Hechizado", "element": "None"},
+    {"adjectiveMasc": "Etéreo", "adjectiveFem": "Etérea", "type": "Inmaterial", "element": "None"},
+    {"adjectiveMasc": "Brutal", "adjectiveFem": "Brutal", "type": "Violento", "element": "None"},
+    {"adjectiveMasc": "Inefable", "adjectiveFem": "Inefable", "type": "Inexplicable", "element": "None"},
+    {"adjectiveMasc": "Aterrador", "adjectiveFem": "Aterradora", "type": "Espeluznante", "element": "None"},
+    {"adjectiveMasc": "Majestuoso", "adjectiveFem": "Majestuosa", "type": "Imponente", "element": "None"},
+    {"adjectiveMasc": "Imponente", "adjectiveFem": "Imponente", "type": "Majestuoso", "element": "None"},
+    {"adjectiveMasc": "Tenebroso", "adjectiveFem": "Tenebrosa", "type": "Oscuro", "element": "None"},
+    {"adjectiveMasc": "Espectral", "adjectiveFem": "Espectral", "type": "Fantasmagórico", "element": "None"},
+    {"adjectiveMasc": "Siniestro", "adjectiveFem": "Siniestra", "type": "Maléfico", "element": "None"},
+    {"adjectiveMasc": "Inmortal", "adjectiveFem": "Inmortal", "type": "Eterno", "element": "None"},
+    {"adjectiveMasc": "Arcano", "adjectiveFem": "Arcana", "type": "Místico", "element": "None"},
+    {"adjectiveMasc": "Atroz", "adjectiveFem": "Atroz", "type": "Despiadado", "element": "None"},
+    {"adjectiveMasc": "Rugiente", "adjectiveFem": "Rugiente", "type": "Furioso", "element": "None"},
+    {"adjectiveMasc": "Enigmático", "adjectiveFem": "Enigmática", "type": "Misterioso", "element": "None"},
+    {"adjectiveMasc": "Obscuro", "adjectiveFem": "Obscura", "type": "Oculto", "element": "None"},
+    {"adjectiveMasc": "Reluciente", "adjectiveFem": "Reluciente", "type": "Brillante", "element": "None"},
+    {"adjectiveMasc": "Resplandeciente", "adjectiveFem": "Resplandeciente", "type": "Radiante", "element": "None"},
+    {"adjectiveMasc": "Incandescente", "adjectiveFem": "Incandescente", "type": "Llameante", "element": "None"},
+    {"adjectiveMasc": "Helado", "adjectiveFem": "Helada", "type": "Glacial", "element": "None"},
+    {"adjectiveMasc": "Tempestuoso", "adjectiveFem": "Tempestuosa", "type": "Torrencial", "element": "None"},
+    {"adjectiveMasc": "Venerable", "adjectiveFem": "Venerable", "type": "Sagrado", "element": "None"},
+    {"adjectiveMasc": "Nefasto", "adjectiveFem": "Nefasta", "type": "Funesto", "element": "None"},
+    {"adjectiveMasc": "Abismal", "adjectiveFem": "Abismal", "type": "Profundo", "element": "None"},
+    {"adjectiveMasc": "Insondable", "adjectiveFem": "Insondable", "type": "Impenetrable", "element": "None"},
+    {"adjectiveMasc": "Fúnebre", "adjectiveFem": "Fúnebre", "type": "Lúgubre", "element": "None"},
+    {"adjectiveMasc": "Lúgubre", "adjectiveFem": "Lúgubre", "type": "Triste", "element": "None"},
+    {"adjectiveMasc": "Melancólico", "adjectiveFem": "Melancólica", "type": "Apesadumbrado", "element": "None"},
+    {"adjectiveMasc": "Desgarrador", "adjectiveFem": "Desgarradora", "type": "Atronador", "element": "None"},
+    {"adjectiveMasc": "Atormentado", "adjectiveFem": "Atormentada", "type": "Sufriente", "element": "None"},
+    {"adjectiveMasc": "Inexorable", "adjectiveFem": "Inexorable", "type": "Implacable", "element": "None"},
+    {"adjectiveMasc": "Impetuoso", "adjectiveFem": "Impetuosa", "type": "Arrollador", "element": "None"},
+    {"adjectiveMasc": "Ardoroso", "adjectiveFem": "Ardorosa", "type": "Fogoso", "element": "None"},
+    {"adjectiveMasc": "Voraz", "adjectiveFem": "Voraz", "type": "Insaciable", "element": "None"},
+    {"adjectiveMasc": "Despiadado", "adjectiveFem": "Despiadada", "type": "Implacable", "element": "None"},
+    {"adjectiveMasc": "Fulgurante", "adjectiveFem": "Fulgurante", "type": "Relámpago", "element": "None"},
+    {"adjectiveMasc": "Cegador", "adjectiveFem": "Cegadora", "type": "Resplandeciente", "element": "None"},
+    {"adjectiveMasc": "Mortal", "adjectiveFem": "Mortal", "type": "Letal", "element": "None"},
+    {"adjectiveMasc": "Poderoso", "adjectiveFem": "Poderosa", "type": "Potente", "element": "None"},
+    {"adjectiveMasc": "Invencible", "adjectiveFem": "Invencible", "type": "Inquebrantable", "element": "None"},
+    {"adjectiveMasc": "Inmenso", "adjectiveFem": "Inmensa", "type": "Colosal", "element": "None"},
+    {"adjectiveMasc": "Gigantesco", "adjectiveFem": "Gigantesca", "type": "Enorme", "element": "None"},
+    {"adjectiveMasc": "Monumental", "adjectiveFem": "Monumental", "type": "Impresionante", "element": "None"},
+    {"adjectiveMasc": "Soberbio", "adjectiveFem": "Soberbia", "type": "Altivo", "element": "None"},
+    {"adjectiveMasc": "Imperial", "adjectiveFem": "Imperial", "type": "Majestuoso", "element": "None"},
+    {"adjectiveMasc": "Real", "adjectiveFem": "Real", "type": "Regio", "element": "None"},
+    {"adjectiveMasc": "Digno", "adjectiveFem": "Digna", "type": "Noble", "element": "None"},
+    {"adjectiveMasc": "Heroico", "adjectiveFem": "Heroica", "type": "Valeroso", "element": "None"},
+    {"adjectiveMasc": "Gallardo", "adjectiveFem": "Gallarda", "type": "Bravo", "element": "None"},
+    {"adjectiveMasc": "Intrépido", "adjectiveFem": "Intrépida", "type": "Valiente", "element": "None"},
+    {"adjectiveMasc": "Resoluto", "adjectiveFem": "Resoluta", "type": "Decidido", "element": "None"},
+    {"adjectiveMasc": "Audaz", "adjectiveFem": "Audaz", "type": "Osado", "element": "None"},
+    {"adjectiveMasc": "Brillante", "adjectiveFem": "Brillante", "type": "Luminoso", "element": "None"},
+    {"adjectiveMasc": "Cautivador", "adjectiveFem": "Cautivadora", "type": "Encantador", "element": "None"},
+    {"adjectiveMasc": "Esotérico", "adjectiveFem": "Esotérica", "type": "Misterioso", "element": "None"},
+    {"adjectiveMasc": "Sanguinario", "adjectiveFem": "Sanguinaria", "type": "Cruento", "element": "None"},
+    {"adjectiveMasc": "Macabro", "adjectiveFem": "Macabra", "type": "Espeluznante", "element": "None"},
+    {"adjectiveMasc": "Desolado", "adjectiveFem": "Desolada", "type": "Abandonado", "element": "None"},
+    {"adjectiveMasc": "Vacío", "adjectiveFem": "Vacía", "type": "Nulo", "element": "None"},
+    {"adjectiveMasc": "Caótico", "adjectiveFem": "Caótica", "type": "Incontrolable", "element": "None"},
+    {"adjectiveMasc": "Inquietante", "adjectiveFem": "Inquietante", "type": "Perturbador", "element": "None"},
+    {"adjectiveMasc": "Veloz", "adjectiveFem": "Veloz", "type": "Ágil", "element": "None"},
+    {"adjectiveMasc": "Lesto", "adjectiveFem": "Lesta", "type": "Rápido", "element": "None"},
+    {"adjectiveMasc": "Presto", "adjectiveFem": "Presta", "type": "Ágil", "element": "None"},
+    {"adjectiveMasc": "Sutil", "adjectiveFem": "Sutil", "type": "Delicado", "element": "None"},
+    {"adjectiveMasc": "Fino", "adjectiveFem": "Fina", "type": "Elegante", "element": "None"},
+    {"adjectiveMasc": "Nítido", "adjectiveFem": "Nítida", "type": "Claro", "element": "None"},
+    {"adjectiveMasc": "Perspicaz", "adjectiveFem": "Perspicaz", "type": "Agudo", "element": "None"},
+    {"adjectiveMasc": "Sagaz", "adjectiveFem": "Sagaz", "type": "Astuto", "element": "None"},
+    {"adjectiveMasc": "Ingenioso", "adjectiveFem": "Ingeniosa", "type": "Creativo", "element": "None"},
+    {"adjectiveMasc": "Intrincado", "adjectiveFem": "Intrincada", "type": "Complicado", "element": "None"},
+    {"adjectiveMasc": "Sólido", "adjectiveFem": "Sólida", "type": "Firme", "element": "None"},
+    {"adjectiveMasc": "Robusto", "adjectiveFem": "Robusta", "type": "Resistente", "element": "None"},
+    {"adjectiveMasc": "Vigoroso", "adjectiveFem": "Vigorosa", "type": "Fuerte", "element": "None"},
+    {"adjectiveMasc": "Musculoso", "adjectiveFem": "Musculosa", "type": "Fornido", "element": "None"},
+    {"adjectiveMasc": "Endurecido", "adjectiveFem": "Endurecida", "type": "Rígido", "element": "None"},
+    {"adjectiveMasc": "Refinado", "adjectiveFem": "Refinada", "type": "Pulido", "element": "None"},
+    {"adjectiveMasc": "Aterciopelado", "adjectiveFem": "Aterciopelada", "type": "Suave", "element": "None"},
+    {"adjectiveMasc": "Morboso", "adjectiveFem": "Morbosa", "type": "Siniestro", "element": "None"},
+    {"adjectiveMasc": "Oscuro", "adjectiveFem": "Oscura", "type": "Sombrío", "element": "None"},
+    {"adjectiveMasc": "Fugaz", "adjectiveFem": "Fugaz", "type": "Efímero", "element": "None"},
+    {"adjectiveMasc": "Transitorio", "adjectiveFem": "Transitoria", "type": "Pasajero", "element": "None"},
+    {"adjectiveMasc": "Eterno", "adjectiveFem": "Eterna", "type": "Infinito", "element": "None"},
+    {"adjectiveMasc": "Inmutable", "adjectiveFem": "Inmutable", "type": "Fijo", "element": "None"},
+    {"adjectiveMasc": "Voluble", "adjectiveFem": "Voluble", "type": "Cambiante", "element": "None"},
+    {"adjectiveMasc": "Errático", "adjectiveFem": "Errática", "type": "Inconstante", "element": "None"},
+    {"adjectiveMasc": "Caprichoso", "adjectiveFem": "Caprichosa", "type": "Inesperado", "element": "None"},
+    {"adjectiveMasc": "Impredecible", "adjectiveFem": "Impredecible", "type": "Incierto", "element": "None"},
+    {"adjectiveMasc": "Cauteloso", "adjectiveFem": "Cautelosa", "type": "Precavido", "element": "None"},
+    {"adjectiveMasc": "Previsor", "adjectiveFem": "Previsora", "type": "Anticipado", "element": "None"},
+    {"adjectiveMasc": "Perspicuo", "adjectiveFem": "Perspicua", "type": "Claro", "element": "None"},
+    {"adjectiveMasc": "Claro", "adjectiveFem": "Clara", "type": "Transparente", "element": "None"},
+    {"adjectiveMasc": "Opaco", "adjectiveFem": "Opaca", "type": "Sombrío", "element": "None"},
+    {"adjectiveMasc": "Relajante", "adjectiveFem": "Relajante", "type": "Tranquilo", "element": "None"},
+    {"adjectiveMasc": "Pacífico", "adjectiveFem": "Pacífica", "type": "Sereno", "element": "None"},
+    {"adjectiveMasc": "Sereno", "adjectiveFem": "Serena", "type": "Calmado", "element": "None"},
+    {"adjectiveMasc": "Tranquilo", "adjectiveFem": "Tranquila", "type": "Apacible", "element": "None"},
+    {"adjectiveMasc": "Agitado", "adjectiveFem": "Agitada", "type": "Inquieto", "element": "None"},
+    {"adjectiveMasc": "Ardiente", "adjectiveFem": "Ardiente", "type": "Ferviente", "element": "None"},
+    {"adjectiveMasc": "Cálido", "adjectiveFem": "Cálida", "type": "Abrasador", "element": "None"},
+    {"adjectiveMasc": "Gélido", "adjectiveFem": "Gélida", "type": "Frígido", "element": "None"},
+    {"adjectiveMasc": "Temible", "adjectiveFem": "Temible", "type": "Atemorizante", "element": "None"},
+    {"adjectiveMasc": "Pavoroso", "adjectiveFem": "Pavorosa", "type": "Espeluznante", "element": "None"},
+    {"adjectiveMasc": "Horripilante", "adjectiveFem": "Horripilante", "type": "Atroz", "element": "None"},
+    {"adjectiveMasc": "Funesto", "adjectiveFem": "Funesta", "type": "Sinistro", "element": "None"},
+    {"adjectiveMasc": "Exánime", "adjectiveFem": "Exánime", "type": "Cadavérico", "element": "None"},
+    {"adjectiveMasc": "Radiante", "adjectiveFem": "Radiante", "type": "Luminoso", "element": "None"},
+    {"adjectiveMasc": "Floreciente", "adjectiveFem": "Floreciente", "type": "Próspero", "element": "None"},
+    {"adjectiveMasc": "Creciente", "adjectiveFem": "Creciente", "type": "Ascendente", "element": "None"},
+    {"adjectiveMasc": "Expansivo", "adjectiveFem": "Expansiva", "type": "Inmenso", "element": "None"},
+    {"adjectiveMasc": "Austero", "adjectiveFem": "Austera", "type": "Sobrio", "element": "None"},
+    {"adjectiveMasc": "Sencillo", "adjectiveFem": "Sencilla", "type": "Modesto", "element": "None"},
+    {"adjectiveMasc": "Ordinario", "adjectiveFem": "Ordinaria", "type": "Común", "element": "None"},
+    {"adjectiveMasc": "Extraordinario", "adjectiveFem": "Extraordinaria", "type": "Excepcional", "element": "None"},
+    {"adjectiveMasc": "Insólito", "adjectiveFem": "Insólita", "type": "Raro", "element": "None"},
+    {"adjectiveMasc": "Curioso", "adjectiveFem": "Curiosa", "type": "Inusual", "element": "None"},
+    {"adjectiveMasc": "Insospechado", "adjectiveFem": "Insospechada", "type": "Sorprendente", "element": "None"},
+    {"adjectiveMasc": "Prodigioso", "adjectiveFem": "Prodigiosa", "type": "Maravilloso", "element": "None"},
+    {"adjectiveMasc": "Estupendo", "adjectiveFem": "Estupenda", "type": "Fabuloso", "element": "None"},
+    {"adjectiveMasc": "Fascinante", "adjectiveFem": "Fascinante", "type": "Cautivador", "element": "None"},
+    {"adjectiveMasc": "Encantador", "adjectiveFem": "Encantadora", "type": "Hechizante", "element": "None"},
+    {"adjectiveMasc": "Atractivo", "adjectiveFem": "Atractiva", "type": "Seductor", "element": "None"},
+    {"adjectiveMasc": "Apacible", "adjectiveFem": "Apacible", "type": "Tranquilo", "element": "None"},
+    {"adjectiveMasc": "Plácido", "adjectiveFem": "Plácida", "type": "Sosegado", "element": "None"},
+    {"adjectiveMasc": "Melodioso", "adjectiveFem": "Melodiosa", "type": "Armonioso", "element": "None"},
+    {"adjectiveMasc": "Cadencioso", "adjectiveFem": "Cadenciosa", "type": "Rítmico", "element": "None"},
+    {"adjectiveMasc": "Vibrátil", "adjectiveFem": "Vibrátil", "type": "Ondulante", "element": "None"},
+    {"adjectiveMasc": "Ondulante", "adjectiveFem": "Ondulante", "type": "Fluyente", "element": "None"},
+    {"adjectiveMasc": "Errante", "adjectiveFem": "Errante", "type": "Vagabundo", "element": "None"},
+    {"adjectiveMasc": "Nómada", "adjectiveFem": "Nómada", "type": "Errante", "element": "None"},
+    {"adjectiveMasc": "Itinerante", "adjectiveFem": "Itinerante", "type": "Viajero", "element": "None"},
+    {"adjectiveMasc": "Disperso", "adjectiveFem": "Dispersa", "type": "Fragmentado", "element": "None"},
+    {"adjectiveMasc": "Cíclico", "adjectiveFem": "Cíclica", "type": "Recurrente", "element": "None"},
+    {"adjectiveMasc": "Perpetuo", "adjectiveFem": "Perpetua", "type": "Infinito", "element": "None"},
+    {"adjectiveMasc": "Eterno", "adjectiveFem": "Eterna", "type": "Perdurable", "element": "None"},
+    {"adjectiveMasc": "Incesante", "adjectiveFem": "Incesante", "type": "Constante", "element": "None"},
+    {"adjectiveMasc": "Rígido", "adjectiveFem": "Rígida", "type": "Inflexible", "element": "None"},
+    {"adjectiveMasc": "Maleable", "adjectiveFem": "Maleable", "type": "Flexible", "element": "None"},
+    {"adjectiveMasc": "Elástico", "adjectiveFem": "Elástica", "type": "Flexible", "element": "None"},
+    {"adjectiveMasc": "Dúctil", "adjectiveFem": "Dúctil", "type": "Maleable", "element": "None"},
+    {"adjectiveMasc": "Quebradizo", "adjectiveFem": "Quebradiza", "type": "Vulnerable", "element": "None"},
+    {"adjectiveMasc": "Resbaladizo", "adjectiveFem": "Resbaladiza", "type": "Escurridizo", "element": "None"},
+    {"adjectiveMasc": "Dentado", "adjectiveFem": "Dentada", "type": "Zarpado", "element": "None"},
+    {"adjectiveMasc": "Granuloso", "adjectiveFem": "Granulosa", "type": "Rugoso", "element": "None"},
+    {"adjectiveMasc": "Texturizado", "adjectiveFem": "Texturizada", "type": "Estriado"}
+  ],
+  "creatureFeatures": [
+    {"name": "Daño crítico contra el elemento fuego"},
+    {"name": "Poca suerte al intentar huir"},
+    {"name": "Si su vida baja a menos de la mitad entrará en cólera"},
+    {"name": "Siempre viaja en grupo"},
+    {"name": "Muy solitario"},
+    {"name": "Dobla su velocidad si hay luna llena"},
+    {"name": "Tiene un arma secreta"},
+    {"name": "Resistente a ataques mágicos"},
+    {"name": "Inmunidad al veneno"},
+    {"name": "Regenera salud lentamente"},
+    {"name": "Reflejos sobrenaturales"},
+    {"name": "Ataque sorpresa en la oscuridad"},
+    {"name": "Aumenta su poder con la lluvia"},
+    {"name": "Furor al recibir daño"},
+    {"name": "Se camufla en entornos boscosos"},
+    {"name": "Realiza ataques de emboscada"},
+    {"name": "Reduce daño de elementos helados"},
+    {"name": "Vulnerable a ataques eléctricos"},
+    {"name": "Contraataque instantáneo"},
+    {"name": "Puede volar cortas distancias"},
+    {"name": "Inmune a efectos de control"},
+    {"name": "Amplifica sus habilidades en la noche"},
+    {"name": "Disipa la magia enemiga"},
+    {"name": "Aumenta fuerza en combate cuerpo a cuerpo"},
+    {"name": "Desata fuerza titánica en condiciones extremas"},
+    {"name": "Posee camuflaje en sombras"},
+    {"name": "Realiza ataques en cadena"},
+    {"name": "Aumenta su defensa al recibir ataques críticos"},
+    {"name": "Reduce el daño recibido con armadura natural"},
+    {"name": "Incapacidad para resistir el frío extremo"},
+    {"name": "Aumenta su agresividad con la humedad"},
+    {"name": "Capacidad para absorber energía"},
+    {"name": "Escudo natural contra ataques físicos"},
+    {"name": "Inflige un golpe devastador en un solo ataque"},
+    {"name": "Puede paralizar a sus enemigos momentáneamente"},
+    {"name": "Incrementa su precisión con la estrategia"},
+    {"name": "Posee visión nocturna superior"},
+    {"name": "Detecta trampas y emboscadas"},
+    {"name": "Se adapta rápidamente al entorno"},
+    {"name": "Aumenta su velocidad cuando está herido"},
+    {"name": "Provoca confusión en sus adversarios"},
+    {"name": "Rebota proyectiles enemigos"},
+    {"name": "Genera un aura intimidante"},
+    {"name": "Aumenta su resistencia al daño mágico"},
+    {"name": "Utiliza ataques a distancia si es necesario"},
+    {"name": "Se vuelve impredecible en combate"},
+    {"name": "Sus ataques aplican efecto de quemadura"},
+    {"name": "Inflige daño en área"},
+    {"name": "Duplica su fuerza en momentos de furia"},
+    {"name": "Invoca aliados temporales en combate"},
+    {"name": "Tiene escamas irrompibles"},
+    {"name": "Emite un aura de calma"},
+    {"name": "Aumenta su regeneración en combate"},
+    {"name": "Puede envenenar a sus enemigos"},
+    {"name": "Aumenta su alcance de ataque en terreno elevado"},
+    {"name": "Se oculta en las sombras"},
+    {"name": "Absorbe la luz de sus enemigos"},
+    {"name": "Refleja hechizos con su armadura natural"},
+    {"name": "Cambia de forma para confundir al adversario"},
+    {"name": "Aumenta su intimidación en presencia de líderes"},
+    {"name": "Se fortalece en combate cuerpo a cuerpo"},
+    {"name": "Genera una barrera de energía"},
+    {"name": "Disminuye la efectividad de curaciones enemigas"},
+    {"name": "Desata una explosión de energía"},
+    {"name": "Pierde agilidad cuando está herido"},
+    {"name": "Incrementa su masa y poder en combate prolongado"},
+    {"name": "Emite un chillido que aturde a sus enemigos"},
+    {"name": "Se vuelve más letal en la oscuridad"},
+    {"name": "Absorbe el poder de ataques de fuego"},
+    {"name": "Refuerza su defensa al recibir daño elemental"},
+    {"name": "Se oculta tras un velo de humo"},
+    {"name": "Aumenta su poder al combinarse con aliados"},
+    {"name": "Emite una onda de choque al pisar fuerte"},
+    {"name": "Su furia aumenta con el número de enemigos"},
+    {"name": "Disminuye la efectividad de los ataques enemigos"},
+    {"name": "Se regenera al exponerse a la luz del sol"},
+    {"name": "Puede predecir el próximo movimiento enemigo"},
+    {"name": "Se vuelve más astuto en terrenos familiares"},
+    {"name": "Reduce su tamaño para evadir ataques"},
+    {"name": "Aumenta su velocidad al atacar"},
+    {"name": "Provoca un temblor en el suelo al golpear"},
+    {"name": "Emite destellos cegadores al moverse"},
+    {"name": "Aumenta su resistencia en ambientes hostiles"},
+    {"name": "Capta la energía vital del ambiente"},
+    {"name": "Inhibe el poder de los hechiceros enemigos"},
+    {"name": "Se vuelve casi invisible cuando está en reposo"},
+    {"name": "Duplica su resistencia contra el frío"},
+    {"name": "Se adapta a las tácticas del enemigo"},
+    {"name": "Incrementa su fuerza cuando está en soledad"},
+    {"name": "Provoca pánico con su sola presencia"},
+    {"name": "Desata un aura de oscuridad en combate"},
+    {"name": "Refleja ataques de energía"},
+    {"name": "Emite un rayo concentrado de luz"},
+    {"name": "Su velocidad se duplica en campo abierto"},
+    {"name": "Reduce el daño al recibir ataques a distancia"},
+    {"name": "Potencia su ataque en terreno rocoso"},
+    {"name": "Aumenta su agilidad en superficies resbaladizas"},
+    {"name": "Su presencia intimida a los débiles"},
+    {"name": "Se vuelve insensible al dolor momentáneamente"},
+    {"name": "Incrementa su poder mágico cuando está concentrado"},
+    {"name": "Vulnerable a ataques mágicos"},
+    {"name": "Muy vulnerable al veneno"},
+    {"name": "Se cura rápidamente"},
+    {"name": "Ataque predecible en la luz"},
+    {"name": "Siempre viaja solo"},
+    {"name": "Pierde velocidad si hay luna llena"},
+    {"name": "Carece de armas ocultas"},
+    {"name": "Es visible en cualquier entorno"},
+    {"name": "Realiza ataques frontales"},
+    {"name": "Se vuelve cauteloso cuando su vida baja"},
+    {"name": "Sensibilidad extrema al veneno"},
+    {"name": "Reflejos lentos en situaciones críticas"},
+    {"name": "Pierde precisión en situaciones de presión"},
+    {"name": "Visión nocturna deficiente"},
+    {"name": "Ignora señales de peligro"},
+    {"name": "Sus habilidades disminuyen en la oscuridad"},
+    {"name": "Potencia la magia enemiga"},
+    {"name": "Pierde fuerza en combates prolongados"},
+    {"name": "No se activa su fuerza extra en condiciones extremas"},
+    {"name": "Su camuflaje falla en sombras"},
+    {"name": "Solo ataca una vez"},
+    {"name": "No incrementa su defensa ante ataques críticos"},
+    {"name": "Su armadura natural es ineficaz"},
+    {"name": "Se fortalece en climas fríos"},
+    {"name": "Se vuelve pasivo en ambientes húmedos"},
+    {"name": "No absorbe energía de sus oponentes"},
+    {"name": "No tiene protección natural"},
+    {"name": "Sus golpes son moderados"},
+    {"name": "No puede paralizar a sus enemigos"},
+    {"name": "Pierde precisión bajo presión"},
+    {"name": "No posee visión nocturna"},
+    {"name": "Ignora las señales de peligro"},
+    {"name": "Se ralentiza en ambientes desconocidos"},
+    {"name": "Pierde velocidad cuando está herido"},
+    {"name": "Es predecible en combate"},
+    {"name": "Absorbe proyectiles enemigos"},
+    {"name": "Es vulnerable a la magia"},
+    {"name": "Solo ataca cuerpo a cuerpo"},
+    {"name": "Es predecible y rutinario en combate"},
+    {"name": "No aplican efectos adicionales"},
+    {"name": "Solo ataca a un objetivo"},
+    {"name": "No incrementa su fuerza en momentos críticos"},
+    {"name": "No invoca refuerzos"}
+  ],
+  "places": [
+    {"name": "Desierto", "masculino": 1},
+  {"name": "Páramo", "masculino": 1},
+  {"name": "Selva", "masculino": 1},
+  {"name": "Jungla", "masculino": 1},
+  {"name": "Glaciar", "masculino": 1},
+  {"name": "Ciudad", "masculino": 1},
+  {"name": "Aldea", "masculino": 1},
+  {"name": "Castillo", "masculino": 1},
+  {"name": "Bosque", "masculino": 1},
+  {"name": "Valle", "masculino": 1},
+  {"name": "Caverna", "masculino": 1},
+  {"name": "Montaña", "masculino": 1},
+  {"name": "Ruinas", "masculino": 1},
+  {"name": "Laguna", "masculino": 1},
+  {"name": "Pantano", "masculino": 1},
+  {"name": "Tundra", "masculino": 1},
+  {"name": "Isla", "masculino": 1},
+  {"name": "Villa", "masculino": 1},
+  {"name": "Fortaleza", "masculino": 1},
+  {"name": "Río", "masculino": 1}
+  ],
+  "placesSub": [
+    
+      {
+        "nameMasc": "Helado",
+        "nameFem": "Helada"
+      },
+      {
+        "nameMasc": "Ardiente",
+        "nameFem": "Ardiente"
+      },
+      {
+        "nameMasc": "Del destino",
+        "nameFem": "Del destina"
+      },
+      {
+        "nameMasc": "Oscuro",
+        "nameFem": "Oscura"
+      },
+      {
+        "nameMasc": "Radiante",
+        "nameFem": "Radiante"
+      },
+      {
+        "nameMasc": "Místico",
+        "nameFem": "Mística"
+      },
+      {
+        "nameMasc": "Poderoso",
+        "nameFem": "Poderosa"
+      },
+      {
+        "nameMasc": "Eterno",
+        "nameFem": "Eterna"
+      },
+      {
+        "nameMasc": "Venenoso",
+        "nameFem": "Venenosa"
+      },
+      {
+        "nameMasc": "Silente",
+        "nameFem": "Silente"
+      },
+      {
+        "nameMasc": "Siniestro",
+        "nameFem": "Siniestra"
+      },
+      {
+        "nameMasc": "Vibrante",
+        "nameFem": "Vibrante"
+      },
+      {
+        "nameMasc": "Inmortal",
+        "nameFem": "Inmortal"
+      },
+      {
+        "nameMasc": "Mortal",
+        "nameFem": "Mortal"
+      },
+      {
+        "nameMasc": "Celestial",
+        "nameFem": "Celestial"
+      },
+      {
+        "nameMasc": "Infernal",
+        "nameFem": "Infernal"
+      },
+      {
+        "nameMasc": "Sombrío",
+        "nameFem": "Sombría"
+      },
+      {
+        "nameMasc": "Luminoso",
+        "nameFem": "Luminosa"
+      },
+      {
+        "nameMasc": "Resplandeciente",
+        "nameFem": "Resplandeciente"
+      },
+      {
+        "nameMasc": "Encantado",
+        "nameFem": "Encantada"
+      },
+      {
+        "nameMasc": "Gélido",
+        "nameFem": "Gélida"
+      },
+      {
+        "nameMasc": "Abrasador",
+        "nameFem": "Abrasador"
+      },
+      {
+        "nameMasc": "Tempestuoso",
+        "nameFem": "Tempestuosa"
+      },
+      {
+        "nameMasc": "Sereno",
+        "nameFem": "Serena"
+      },
+      {
+        "nameMasc": "Tormentoso",
+        "nameFem": "Tormentosa"
+      },
+      {
+        "nameMasc": "Etéreo",
+        "nameFem": "Etérea"
+      },
+      {
+        "nameMasc": "Lúgubre",
+        "nameFem": "Lúgubre"
+      },
+      {
+        "nameMasc": "Incandescente",
+        "nameFem": "Incandescente"
+      },
+      {
+        "nameMasc": "Fugaz",
+        "nameFem": "Fugaz"
+      },
+      {
+        "nameMasc": "Transitorio",
+        "nameFem": "Transitoria"
+      },
+      {
+        "nameMasc": "Magnífico",
+        "nameFem": "Magnífica"
+      },
+      {
+        "nameMasc": "Desolado",
+        "nameFem": "Desolada"
+      },
+      {
+        "nameMasc": "Mórbido",
+        "nameFem": "Mórbida"
+      },
+      {
+        "nameMasc": "Atronador",
+        "nameFem": "Atronador"
+      },
+      {
+        "nameMasc": "Apacible",
+        "nameFem": "Apacible"
+      },
+      {
+        "nameMasc": "Letal",
+        "nameFem": "Letal"
+      },
+      {
+        "nameMasc": "Invencible",
+        "nameFem": "Invencible"
+      },
+      {
+        "nameMasc": "Espectral",
+        "nameFem": "Espectral"
+      },
+      {
+        "nameMasc": "Vibratorio",
+        "nameFem": "Vibratoria"
+      },
+      {
+        "nameMasc": "Ondulante",
+        "nameFem": "Ondulante"
+      },
+      {
+        "nameMasc": "Errante",
+        "nameFem": "Errante"
+      },
+      {
+        "nameMasc": "Errático",
+        "nameFem": "Errática"
+      },
+      {
+        "nameMasc": "Caprichoso",
+        "nameFem": "Caprichosa"
+      },
+      {
+        "nameMasc": "Inesperado",
+        "nameFem": "Inesperada"
+      },
+      {
+        "nameMasc": "Insólito",
+        "nameFem": "Insólita"
+      },
+      {
+        "nameMasc": "Rítmico",
+        "nameFem": "Rítmica"
+      },
+      {
+        "nameMasc": "Sonoro",
+        "nameFem": "Sonora"
+      },
+      {
+        "nameMasc": "Añejo",
+        "nameFem": "Añeja"
+      },
+      {
+        "nameMasc": "Nuevo",
+        "nameFem": "Nueva"
+      },
+      {
+        "nameMasc": "Legendario",
+        "nameFem": "Legendaria"
+      },
+      {
+        "nameMasc": "Arcano",
+        "nameFem": "Arcana"
+      },
+      {
+        "nameMasc": "Forjado",
+        "nameFem": "Forjada"
+      },
+      {
+        "nameMasc": "Pétreo",
+        "nameFem": "Pétrea"
+      },
+      {
+        "nameMasc": "Florido",
+        "nameFem": "Florida"
+      },
+      {
+        "nameMasc": "Rugiente",
+        "nameFem": "Rugiente"
+      },
+      {
+        "nameMasc": "Silencioso",
+        "nameFem": "Silenciosa"
+      },
+      {
+        "nameMasc": "Exuberante",
+        "nameFem": "Exuberante"
+      },
+      {
+        "nameMasc": "Fulgurante",
+        "nameFem": "Fulgurante"
+      },
+      {
+        "nameMasc": "Cauteloso",
+        "nameFem": "Cautelosa"
+      },
+      {
+        "nameMasc": "Temerario",
+        "nameFem": "Temeraria"
+      },
+      {
+        "nameMasc": "Intrépido",
+        "nameFem": "Intrépida"
+      },
+      {
+        "nameMasc": "Valeroso",
+        "nameFem": "Valerosa"
+      },
+      {
+        "nameMasc": "Tenaz",
+        "nameFem": "Tenaz"
+      },
+      {
+        "nameMasc": "Obstinado",
+        "nameFem": "Obstinada"
+      },
+      {
+        "nameMasc": "Sutil",
+        "nameFem": "Sutil"
+      },
+      {
+        "nameMasc": "Lánguido",
+        "nameFem": "Lánguida"
+      },
+      {
+        "nameMasc": "Fulgente",
+        "nameFem": "Fulgente"
+      },
+      {
+        "nameMasc": "Brillante",
+        "nameFem": "Brillante"
+      },
+      {
+        "nameMasc": "Esplendoroso",
+        "nameFem": "Esplendorosa"
+      },
+      {
+        "nameMasc": "Aciago",
+        "nameFem": "Aciaga"
+      },
+      {
+        "nameMasc": "Frígido",
+        "nameFem": "Frígida"
+      },
+      {
+        "nameMasc": "Ígneo",
+        "nameFem": "Ígnea"
+      },
+      {
+        "nameMasc": "Placentero",
+        "nameFem": "Placentera"
+      },
+      {
+        "nameMasc": "Torpe",
+        "nameFem": "Torpe"
+      },
+      {
+        "nameMasc": "Audaz",
+        "nameFem": "Audaz"
+      },
+      {
+        "nameMasc": "Prudente",
+        "nameFem": "Prudente"
+      },
+      {
+        "nameMasc": "Sagaz",
+        "nameFem": "Sagaz"
+      },
+      {
+        "nameMasc": "Incomparable",
+        "nameFem": "Incomparable"
+      },
+      {
+        "nameMasc": "Efímero",
+        "nameFem": "Efímera"
+      },
+      {
+        "nameMasc": "Resistente",
+        "nameFem": "Resistente"
+      },
+      {
+        "nameMasc": "Flexible",
+        "nameFem": "Flexible"
+      },
+      {
+        "nameMasc": "Firme",
+        "nameFem": "Firme"
+      },
+      {
+        "nameMasc": "Contundente",
+        "nameFem": "Contundente"
+      },
+      {
+        "nameMasc": "Violento",
+        "nameFem": "Violenta"
+      },
+      {
+        "nameMasc": "Apasionado",
+        "nameFem": "Apasionada"
+      },
+      {
+        "nameMasc": "Equilibrado",
+        "nameFem": "Equilibrada"
+      },
+      {
+        "nameMasc": "Discreto",
+        "nameFem": "Discreta"
+      },
+      {
+        "nameMasc": "Armonioso",
+        "nameFem": "Armoniosa"
+      },
+      {
+        "nameMasc": "Caótico",
+        "nameFem": "Caótica"
+      },
+      {
+        "nameMasc": "Constante",
+        "nameFem": "Constante"
+      },
+      {
+        "nameMasc": "Voluble",
+        "nameFem": "Voluble"
+      },
+      {
+        "nameMasc": "Inconstante",
+        "nameFem": "Inconstante"
+      },
+      {
+        "nameMasc": "Cambiante",
+        "nameFem": "Cambiante"
+      },
+      {
+        "nameMasc": "Inestable",
+        "nameFem": "Inestable"
+      },
+      {
+        "nameMasc": "Sólido",
+        "nameFem": "Sólida"
+      },
+      {
+        "nameMasc": "Robusto",
+        "nameFem": "Robusta"
+      },
+      {
+        "nameMasc": "Fornido",
+        "nameFem": "Fornida"
+      },
+      {
+        "nameMasc": "Delgado",
+        "nameFem": "Delgada"
+      },
+      {
+        "nameMasc": "Esbelto",
+        "nameFem": "Esbelta"
+      },
+      {
+        "nameMasc": "Ágil",
+        "nameFem": "Ágil"
+      },
+      {
+        "nameMasc": "Velóz",
+        "nameFem": "Velóz"
+      },
+      {
+        "nameMasc": "Lento",
+        "nameFem": "Lenta"
+      },
+      {
+        "nameMasc": "Impetuoso",
+        "nameFem": "Impetuosa"
+      },
+      {
+        "nameMasc": "Dinámico",
+        "nameFem": "Dinámica"
+      },
+      {
+        "nameMasc": "Efervescente",
+        "nameFem": "Efervescente"
+      },
+      {
+        "nameMasc": "Lumínico",
+        "nameFem": "Lumínica"
+      },
+      {
+        "nameMasc": "Mágico",
+        "nameFem": "Mágica"
+      },
+      {
+        "nameMasc": "Misterioso",
+        "nameFem": "Misteriosa"
+      },
+      {
+        "nameMasc": "Profundo",
+        "nameFem": "Profunda"
+      },
+      {
+        "nameMasc": "Abisal",
+        "nameFem": "Abisal"
+      },
+      {
+        "nameMasc": "Intenso",
+        "nameFem": "Intensa"
+      },
+      {
+        "nameMasc": "Exquisito",
+        "nameFem": "Exquisita"
+      },
+      {
+        "nameMasc": "Sublime",
+        "nameFem": "Sublime"
+      },
+      {
+        "nameMasc": "Indestructible",
+        "nameFem": "Indestructible"
+      },
+      {
+        "nameMasc": "Voraz",
+        "nameFem": "Voraz"
+      },
+      {
+        "nameMasc": "Insaciable",
+        "nameFem": "Insaciable"
+      },
+      {
+        "nameMasc": "Hambriento",
+        "nameFem": "Hambrienta"
+      },
+      {
+        "nameMasc": "Sediento",
+        "nameFem": "Sedienta"
+      },
+      {
+        "nameMasc": "Frenético",
+        "nameFem": "Frenética"
+      },
+      {
+        "nameMasc": "Incontrolable",
+        "nameFem": "Incontrolable"
+      },
+      {
+        "nameMasc": "Estrepitoso",
+        "nameFem": "Estrepitosa"
+      },
+      {
+        "nameMasc": "Estridente",
+        "nameFem": "Estridente"
+      },
+      {
+        "nameMasc": "Melódico",
+        "nameFem": "Melódica"
+      },
+      {
+        "nameMasc": "Rimbombante",
+        "nameFem": "Rimbombante"
+      },
+      {
+        "nameMasc": "Explosivo",
+        "nameFem": "Explosiva"
+      },
+      {
+        "nameMasc": "Incisivo",
+        "nameFem": "Incisiva"
+      },
+      {
+        "nameMasc": "Cortante",
+        "nameFem": "Cortante"
+      },
+      {
+        "nameMasc": "Afilado",
+        "nameFem": "Afilada"
+      },
+      {
+        "nameMasc": "Desgarrador",
+        "nameFem": "Desgarrador"
+      },
+      {
+        "nameMasc": "Devastador",
+        "nameFem": "Devastador"
+      },
+      {
+        "nameMasc": "Fulminante",
+        "nameFem": "Fulminante"
+      },
+      {
+        "nameMasc": "Impactante",
+        "nameFem": "Impactante"
+      },
+      {
+        "nameMasc": "Potente",
+        "nameFem": "Potente"
+      },
+      {
+        "nameMasc": "Energético",
+        "nameFem": "Energética"
+      },
+      {
+        "nameMasc": "Impresionante",
+        "nameFem": "Impresionante"
+      },
+      {
+        "nameMasc": "Imperial",
+        "nameFem": "Imperial"
+      },
+      {
+        "nameMasc": "Regio",
+        "nameFem": "Regia"
+      },
+      {
+        "nameMasc": "Noble",
+        "nameFem": "Noble"
+      },
+      {
+        "nameMasc": "Soberbio",
+        "nameFem": "Soberbia"
+      },
+      {
+        "nameMasc": "Real",
+        "nameFem": "Real"
+      },
+      {
+        "nameMasc": "Digno",
+        "nameFem": "Digna"
+      },
+      {
+        "nameMasc": "Heroico",
+        "nameFem": "Heroica"
+      },
+      {
+        "nameMasc": "Belicoso",
+        "nameFem": "Belicosa"
+      },
+      {
+        "nameMasc": "Triunfante",
+        "nameFem": "Triunfante"
+      },
+      {
+        "nameMasc": "Victorioso",
+        "nameFem": "Victoriosa"
+      },
+      {
+        "nameMasc": "Dominante",
+        "nameFem": "Dominante"
+      },
+      {
+        "nameMasc": "Atemorizante",
+        "nameFem": "Atemorizante"
+      },
+      {
+        "nameMasc": "Espeluznante",
+        "nameFem": "Espeluznante"
+      },
+      {
+        "nameMasc": "Macabro",
+        "nameFem": "Macabra"
+      },
+      {
+        "nameMasc": "Fúnebre",
+        "nameFem": "Fúnebre"
+      },
+      {
+        "nameMasc": "Melancólico",
+        "nameFem": "Melancólica"
+      },
+      {
+        "nameMasc": "Doloroso",
+        "nameFem": "Dolorosa"
+      },
+      {
+        "nameMasc": "Trágico",
+        "nameFem": "Trágica"
+      },
+      {
+        "nameMasc": "Infausto",
+        "nameFem": "Infausta"
+      },
+      {
+        "nameMasc": "Abandonado",
+        "nameFem": "Abandonada"
+      },
+      {
+        "nameMasc": "Solitario",
+        "nameFem": "Solitaria"
+      },
+      {
+        "nameMasc": "Vagabundo",
+        "nameFem": "Vagabunda"
+      },
+      {
+        "nameMasc": "Cambiable",
+        "nameFem": "Cambiable"
+      },
+      {
+        "nameMasc": "Nómada",
+        "nameFem": "Nómada"
+      },
+      {
+        "nameMasc": "Viajero",
+        "nameFem": "Viajera"
+      },
+      {
+        "nameMasc": "Disperso",
+        "nameFem": "Dispersa"
+      },
+      {
+        "nameMasc": "Fragmentado",
+        "nameFem": "Fragmentada"
+      },
+      {
+        "nameMasc": "Cíclico",
+        "nameFem": "Cíclica"
+      },
+      {
+        "nameMasc": "Perpetuo",
+        "nameFem": "Perpetua"
+      },
+      {
+        "nameMasc": "Infinito",
+        "nameFem": "Infinita"
+      },
+      {
+        "nameMasc": "Persistente",
+        "nameFem": "Persistente"
+      },
+      {
+        "nameMasc": "Indefinido",
+        "nameFem": "Indefinida"
+      },
+      {
+        "nameMasc": "Duradero",
+        "nameFem": "Duradera"
+      },
+      {
+        "nameMasc": "Centelleante",
+        "nameFem": "Centelleante"
+      },
+      {
+        "nameMasc": "Parpadeante",
+        "nameFem": "Parpadeante"
+      },
+      {
+        "nameMasc": "Candente",
+        "nameFem": "Candente"
+      },
+      {
+        "nameMasc": "Congelado",
+        "nameFem": "Congelada"
+      },
+      {
+        "nameMasc": "Invernal",
+        "nameFem": "Invernal"
+      },
+      {
+        "nameMasc": "Boreal",
+        "nameFem": "Boreal"
+      },
+      {
+        "nameMasc": "Austral",
+        "nameFem": "Austral"
+      },
+      {
+        "nameMasc": "Meridiano",
+        "nameFem": "Meridiana"
+      },
+      {
+        "nameMasc": "Occidental",
+        "nameFem": "Occidental"
+      },
+      {
+        "nameMasc": "Oriental",
+        "nameFem": "Oriental"
+      },
+      {
+        "nameMasc": "Centenario",
+        "nameFem": "Centenaria"
+      },
+      {
+        "nameMasc": "Milenario",
+        "nameFem": "Milenaria"
+      },
+      {
+        "nameMasc": "Ancestral",
+        "nameFem": "Ancestral"
+      },
+      {
+        "nameMasc": "Arcaico",
+        "nameFem": "Arcaica"
+      },
+      {
+        "nameMasc": "Primitivo",
+        "nameFem": "Primitiva"
+      },
+      {
+        "nameMasc": "Primordial",
+        "nameFem": "Primordial"
+      },
+      {
+        "nameMasc": "Originario",
+        "nameFem": "Originaria"
+      },
+      {
+        "nameMasc": "Fundamental",
+        "nameFem": "Fundamental"
+      },
+      {
+        "nameMasc": "Básico",
+        "nameFem": "Básica"
+      },
+      {
+        "nameMasc": "Esencial",
+        "nameFem": "Esencial"
+      },
+      {
+        "nameMasc": "Vital",
+        "nameFem": "Vital"
+      },
+      {
+        "nameMasc": "Crucial",
+        "nameFem": "Crucial"
+      },
+      {
+        "nameMasc": "Imperativo",
+        "nameFem": "Imperativa"
+      },
+      {
+        "nameMasc": "Obligatorio",
+        "nameFem": "Obligatoria"
+      },
+      {
+        "nameMasc": "Necesario",
+        "nameFem": "Necesaria"
+      },
+      {
+        "nameMasc": "Indispensable",
+        "nameFem": "Indispensable"
+      },
+      {
+        "nameMasc": "Singular",
+        "nameFem": "Singular"
+      },
+      {
+        "nameMasc": "Único",
+        "nameFem": "Única"
+      },
+      {
+        "nameMasc": "Excepcional",
+        "nameFem": "Excepcional"
+      },
+      {
+        "nameMasc": "Extraordinario",
+        "nameFem": "Extraordinaria"
+      },
+      {
+        "nameMasc": "Notable",
+        "nameFem": "Notable"
+      },
+      {
+        "nameMasc": "Inusual",
+        "nameFem": "Inusual"
+      },
+      {
+        "nameMasc": "Raro",
+        "nameFem": "Rara"
+      },
+      {
+        "nameMasc": "Anómalo",
+        "nameFem": "Anómala"
+      },
+      {
+        "nameMasc": "Peculiar",
+        "nameFem": "Peculiar"
+      },
+      {
+        "nameMasc": "Atípico",
+        "nameFem": "Atípica"
+      },
+      {
+        "nameMasc": "Innovador",
+        "nameFem": "Innovador"
+      },
+      {
+        "nameMasc": "Vanguardista",
+        "nameFem": "Vanguardista"
+      },
+      {
+        "nameMasc": "Moderno",
+        "nameFem": "Moderna"
+      },
+      {
+        "nameMasc": "Futurista",
+        "nameFem": "Futurista"
+      },
+      {
+        "nameMasc": "Avanzado",
+        "nameFem": "Avanzada"
+      },
+      {
+        "nameMasc": "Progresivo",
+        "nameFem": "Progresiva"
+      },
+      {
+        "nameMasc": "Revolucionario",
+        "nameFem": "Revolucionaria"
+      },
+      {
+        "nameMasc": "Pionero",
+        "nameFem": "Pionera"
+      },
+      {
+        "nameMasc": "Experimental",
+        "nameFem": "Experimental"
+      },
+      {
+        "nameMasc": "Inédito",
+        "nameFem": "Inédita"
+      },
+      {
+        "nameMasc": "Creativo",
+        "nameFem": "Creativa"
+      },
+      {
+        "nameMasc": "Imaginativo",
+        "nameFem": "Imaginativa"
+      },
+      {
+        "nameMasc": "Inventivo",
+        "nameFem": "Inventiva"
+      },
+      {
+        "nameMasc": "Original",
+        "nameFem": "Original"
+      },
+      {
+        "nameMasc": "Sorprendente",
+        "nameFem": "Sorprendente"
+      },
+      {
+        "nameMasc": "Asombroso",
+        "nameFem": "Asombrosa"
+      },
+      {
+        "nameMasc": "Increíble",
+        "nameFem": "Increíble"
+      },
+      {
+        "nameMasc": "Extraño",
+        "nameFem": "Extraña"
+      },
+      {
+        "nameMasc": "Críptico",
+        "nameFem": "Críptica"
+      },
+      {
+        "nameMasc": "Oculto",
+        "nameFem": "Oculta"
+      },
+      {
+        "nameMasc": "Secreto",
+        "nameFem": "Secreta"
+      },
+      {
+        "nameMasc": "Reservado",
+        "nameFem": "Reservada"
+      },
+      {
+        "nameMasc": "Introvertido",
+        "nameFem": "Introvertida"
+      },
+      {
+        "nameMasc": "Extrovertido",
+        "nameFem": "Extrovertida"
+      },
+      {
+        "nameMasc": "Comunicativo",
+        "nameFem": "Comunicativa"
+      },
+      {
+        "nameMasc": "Expresivo",
+        "nameFem": "Expresiva"
+      },
+      {
+        "nameMasc": "Elocuente",
+        "nameFem": "Elocuente"
+      },
+      {
+        "nameMasc": "Persuasivo",
+        "nameFem": "Persuasiva"
+      },
+      {
+        "nameMasc": "Convincente",
+        "nameFem": "Convincente"
+      },
+      {
+        "nameMasc": "Inspirador",
+        "nameFem": "Inspiradora"
+      },
+      {
+        "nameMasc": "Motivador",
+        "nameFem": "Motivadora"
+      },
+      {
+        "nameMasc": "Activo",
+        "nameFem": "Activa"
+      },
+      {
+        "nameMasc": "Incansable",
+        "nameFem": "Incansable"
+      },
+      {
+        "nameMasc": "Perseverante",
+        "nameFem": "Perseverante"
+      },
+      {
+        "nameMasc": "Resuelto",
+        "nameFem": "Resuelta"
+      },
+      {
+        "nameMasc": "Determinado",
+        "nameFem": "Determinada"
+      },
+      {
+        "nameMasc": "Feroz",
+        "nameFem": "Feroz"
+      },
+      {
+        "nameMasc": "Combatiente",
+        "nameFem": "Combatiente"
+      },
+      {
+        "nameMasc": "Guerrero",
+        "nameFem": "Guerrera"
+      },
+      {
+        "nameMasc": "Batalleante",
+        "nameFem": "Batalleante"
+      },
+      {
+        "nameMasc": "Incontenible",
+        "nameFem": "Incontenible"
+      }
     ]
-  }
-  
+
+}

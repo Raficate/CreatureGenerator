@@ -1,53 +1,94 @@
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=share" />
 <ion-content class="content-bg" fullscreen>
-  <ion-grid>
-    <ion-row class="row-first">
-      <ion-col class="col-left"></ion-col>
-      <ion-col class="col-middle">
-        <ion-img src="assets/images/logocc.png" alt="Creature Generator" class="logo"></ion-img>
+<ion-grid>
+  <ion-row>
+    <ion-col size="3" sizeSm="1" sizeXs="1"></ion-col>
+    <ion-col size="6" sizeSm="10" sizeXs="10">
+      <ion-row>
+        <ion-col size="2" sizeSm="0" sizeXs="0"></ion-col>
+        <ion-col size="8" sizeSm="12" sizeXs="12">
+          <ion-img src="assets/images/logocc.png" alt="Creature Generator" class="logo"></ion-img>
+        </ion-col>
+        <ion-col size="2" sizeSm="0" sizeXs="0"></ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col size="3" sizeSm="1" sizeXs="1"></ion-col>
+  </ion-row>
 
-      </ion-col>
-      <ion-col class="col-right"></ion-col>
-    </ion-row>
-    <ion-row class="row-second">
-      <ion-col class="col-left"></ion-col>
-      <ion-col class="col-middle">
-        <ion-button class="generate-button" expand="block" (click)="generateCreature()">
-          Generar Criatura
-        </ion-button>
-      </ion-col>
-      <ion-col class="col-right"></ion-col>
-    </ion-row>
+  <ion-row>
+    <ion-col size="3" sizeSm="2" sizeXs="2"></ion-col>
+    <ion-col size="6" sizeSm="8" sizeXs="8">
+      <ion-row>
+        <ion-col size="2" sizeSm="1" sizeXs="1"></ion-col>
+        <ion-col size="8" sizeSm="10" sizeXs="10">
+          <ion-button class="generate-button" expand="block" (click)="generateCreature()">
+            Generar Criatura
+          </ion-button>
+        </ion-col>
+        <ion-col size="3" sizeSm="1" sizeXs="1"></ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col size="3" sizeSm="2" sizeXs="2"></ion-col>
+  </ion-row>
 
-    <ion-row class="row-third">
-      <ion-col class="col-left"></ion-col>
-      <ion-col class="col-middle">
-        <ion-card *ngIf="creature"  class="creature-details">
-          <ion-card-header>
-            <ion-card-title>{{ creature.name }}</ion-card-title>
-          </ion-card-header>
-            <ion-item>
-              <ion-label><strong>Tipo:</strong> {{ creature.type }}</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label><strong> ⚔️ Ataque:</strong> {{ creature.attack }}</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label><strong> 🛡️ Defensa:</strong> {{ creature.defense }}</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label><strong> ☄️ Velocidad:</strong> {{ creature.speed }}</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label><strong> ❤️ Vitalidad:</strong> {{ creature.vitality }}</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label><strong> 🆚 Nivel:</strong> {{ creature.level }}</ion-label>
-            </ion-item>
-        </ion-card>
-      </ion-col>
-      <ion-col class="col-right"></ion-col>
-    </ion-row>
-  </ion-grid>
+  <ion-row>
+    <ion-col sizeLg="4" sizeMd="3" sizeSm="2" sizeXs="1"></ion-col>
+    <ion-col sizeLg="4" sizeMd="6" sizeSm="8" sizeXs="10"  id="creature-details" >
+      <div class="circle">
+        <span class="circle-label">nivel</span>
+        <span class="circle-value">{{ creature?.level }}</span>
+      </div>
+      <ion-card *ngIf="creature" id="creature-details" class="creature-details">
+        <ion-card-header>
+          <ion-card-title>{{ creature.name }}</ion-card-title>
+        </ion-card-header>
+        <ion-item>
+          <ion-label><strong>Tipo:</strong> {{ creature.type }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong> ⚔️ Ataque:</strong> {{ creature.attack }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong> 🛡️ Defensa:</strong> {{ creature.defense }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong> ☄️ Velocidad:</strong> {{ creature.speed }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong> ❤️ Vitalidad:</strong> {{ creature.vitality }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong> 🆚 Nivel:</strong> {{ creature.level }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong>Facción:</strong> {{ creature.faction }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong>Elemento:</strong> {{ creature.element }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong>Característica:</strong> {{ creature.feature }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong>Lugar:</strong> {{ creature.place }}</ion-label>
+        </ion-item>
+      </ion-card>
+    </ion-col>
+    <ion-col sizeLg="4" sizeMd="3" sizeSm="2" sizeXs="1"></ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="3"></ion-col>
+    <ion-col size="6">
+      <ion-button class="share-button" color="medium" expand="block" (click)="generateImage()"  *ngIf="creature" >
+        <ion-label>Share</ion-label>
+        <span class="material-symbols-outlined">
+          share
+        </span>
+      </ion-button>
+    </ion-col>
+    <ion-col size="3"></ion-col>
+  </ion-row>
+</ion-grid>
 </ion-content>
-
-

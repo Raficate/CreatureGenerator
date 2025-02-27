@@ -1,4 +1,4 @@
-ion-button {
+.generate-button {
   display: block;     
   margin: 0 auto;      
   width: 80%;
@@ -7,12 +7,24 @@ ion-button {
   background: #001f3f;
   color: blanchedalmond;
   --background: #800000;
+  --background-hover: #682626;
+  font-weight: bold;
+}
+
+.share-button {
+  display: block;     
+  margin: 0 auto;      
+  width: 80%;
+  height: 80px;         
+  max-width: 300px;      
+  background: #001f3f;
+  color: blanchedalmond;
   font-weight: bold;
 }
 
 .logo {
   display: block;
-  margin: 0 auto;
+  margin: auto;
   width: 100%;
   height: auto;
   max-width: 300px;
@@ -30,59 +42,6 @@ ion-grid {
   width: 100%;
 }
 
-.row-first {
-  height: 40vh;
-}
-
-.row-second {
-  height: 10vh;
-}
-
-.row-third {
-  height: 50vh;
-}
-
-ion-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.col-left, .col-right {
-  flex: 0 0 8%;
-  max-width: 8%;
-}
-.col-middle {
-  flex: 0 0 84%;
-  max-width: 84%;
-}
-
-@media (min-width: 768px) {
-  .col-left, .col-right {
-    flex: 0 0 15%;
-    max-width: 15%;
-  }
-  .col-middle {
-    flex: 0 0 70%;
-    max-width: 70%;
-  }
-}
-
-@media (min-width: 992px) {
-  .col-left, .col-right {
-    flex: 0 0 30%;
-    max-width: 30%;
-  }
-  .col-middle {
-    flex: 0 0 40%;
-    max-width: 40%;
-  }
-}
-
-ion-col {
-  overflow: hidden;
-}
-
 ion-card-title {
   font-weight: bold;
   text-align: center;
@@ -90,4 +49,39 @@ ion-card-title {
 
 ion-card-header {
   background-color: #eceaea; /* Gris */
+}
+
+.share-button {
+  max-width: 150px;
+  max-height: 40px;
+}
+
+.creature-details{
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(202, 102, 20);
+  border-radius: 50%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-label {
+  font-size: 15px; /* tamaño menor para "nivel" */
+  color: white;
+}
+
+.circle-value {
+  font-size: 24px; /* tamaño mayor para el valor */
+  color: white;
+  font-weight: bold;
 }
