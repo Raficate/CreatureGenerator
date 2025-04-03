@@ -85,3 +85,67 @@ ion-card-header {
   color: white;
   font-weight: bold;
 }
+
+.heart-container {
+  position: relative; 
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ajusta el tamaño de tu imagen según necesites */
+.heart-image {
+  width: auto;
+  height: auto;
+}
+
+.heart-value {
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; /* Opcional: impide que el texto bloquee eventos táctiles */
+  font-size: 2rem;     /* Ajusta según tu preferencia */
+  text-align: center;    /* Centra el texto si es más largo */
+}
+
+.bg-col-1 {
+  background-image: url('../../assets/images/ataque2.png');
+  background-size: 100% auto;  /* Ocupa todo el ancho y ajusta la altura manteniendo la proporción */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 5 / 2;  /* Ajusta esta proporción según la imagen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Puedes aplicar lo mismo para las demás columnas, cambiando la imagen */
+.bg-col-2 {
+  background-image: url('../../assets/images/defensa2.png');
+  background-size: 100% auto;  /* Ocupa todo el ancho y ajusta la altura manteniendo la proporción */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 5 / 2;  /* Ajusta esta proporción según la imagen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-col-3 {
+  background-image: url('../../assets/images/velocidad2.png');
+  background-size: 100% auto;  /* Ocupa todo el ancho y ajusta la altura manteniendo la proporción */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 5 / 2;  /* Ajusta esta proporción según la imagen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

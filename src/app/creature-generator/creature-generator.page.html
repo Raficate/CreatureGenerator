@@ -35,40 +35,63 @@
   <ion-row>
     <ion-col sizeLg="4" sizeMd="3" sizeSm="2" sizeXs="1"></ion-col>
     <ion-col sizeLg="4" sizeMd="6" sizeSm="8" sizeXs="10"  id="creature-details" >
-      <div class="circle">
-        <span class="circle-label">nivel</span>
-        <span class="circle-value">{{ creature?.level }}</span>
+      <div class="circle" *ngIf="creature">
+        <span class="circle-label">Nivel</span>
+        <span class="circle-value">{{ creature.level }}</span>
       </div>
       <ion-card *ngIf="creature" id="creature-details" class="creature-details">
         <ion-card-header>
           <ion-card-title>{{ creature.name }}</ion-card-title>
         </ion-card-header>
-        <ion-item>
-          <ion-label><strong>Tipo:</strong> {{ creature.type }}</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label><strong> ⚔️ Ataque:</strong> {{ creature.attack }}</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label><strong> 🛡️ Defensa:</strong> {{ creature.defense }}</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label><strong> ☄️ Velocidad:</strong> {{ creature.speed }}</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label><strong> ❤️ Vitalidad:</strong> {{ creature.vitality }}</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label><strong> 🆚 Nivel:</strong> {{ creature.level }}</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label><strong>Facción:</strong> {{ creature.faction }}</ion-label>
-        </ion-item>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="12">
+              <ion-item>
+                <ion-label><strong>Tipo:</strong> {{ creature.type }}</ion-label>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="6">
+              <ion-row>
+                <ion-col class="bg-col-1" size="12">
+                  {{ creature.attack }}
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col class="bg-col-2" size="12">
+                  {{ creature.defense }}
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col class="bg-col-3" size="12">
+                  {{ creature.speed }}
+                </ion-col>
+              </ion-row>
+            </ion-col>
+            <ion-col size="6">
+              <ion-row>
+                <ion-col size="1"></ion-col>
+                <ion-col size="10">
+                  <div class="heart-container">
+                    <img src="assets/images/vida.png" class="heart-image" alt="Corazón" />
+                    <div class="heart-value">{{ creature.vitality }}</div>
+                  </div>
+                </ion-col>
+                <ion-col size="1"></ion-col>
+              </ion-row>
+
+            </ion-col>
+          </ion-row>
+        </ion-grid>
         <ion-item>
           <ion-label><strong>Elemento:</strong> {{ creature.element }}</ion-label>
         </ion-item>
         <ion-item>
           <ion-label><strong>Característica:</strong> {{ creature.feature }}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><strong>Facción:</strong> {{ creature.faction }}</ion-label>
         </ion-item>
         <ion-item>
           <ion-label><strong>Lugar:</strong> {{ creature.place }}</ion-label>

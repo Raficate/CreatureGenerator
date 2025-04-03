@@ -87,7 +87,7 @@ export class CreatureGeneratorPage implements OnInit {
     const defense = this.randomizeStat(media, 3);
     const speed = this.randomizeStat(media, 3);
 
-    const minVitality = (attack + defense + speed) / 2;
+    const minVitality = Math.floor((attack + defense + speed) / 2);
     const vitality = this.getRandomInt(minVitality, minVitality + 50);
 
     const total = attack + defense + speed + vitality;
